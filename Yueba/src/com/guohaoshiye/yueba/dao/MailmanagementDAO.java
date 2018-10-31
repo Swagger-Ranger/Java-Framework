@@ -1,83 +1,86 @@
-/*    */ package com.aiwan.dao;
-/*    */ 
-/*    */ import com.aiwan.entity.Mailmanagement;
-/*    */ import com.aiwan.entity.Users;
-/*    */ import com.aiwan.hibernate.BaseHibernateDAO;
-/*    */ import java.io.PrintStream;
-/*    */ import java.sql.Timestamp;
-/*    */ import java.util.ArrayList;
-/*    */ import java.util.List;
-/*    */ import org.hibernate.Query;
-/*    */ import org.hibernate.SQLQuery;
-/*    */ import org.hibernate.Session;
-/*    */ import org.hibernate.Transaction;
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ public class MailmanagementDAO
-/*    */   extends BaseHibernateDAO<Mailmanagement>
-/*    */ {
-/*    */   public void saveMail(Timestamp d, List<Users> list, String describe)
-/*    */   {
-/* 24 */     Session session = getSession();
-/* 25 */     Transaction tx = session.beginTransaction();
-/* 26 */     session.doWork(new MailmanagementDAO.1(this, list, describe, d));
-/*    */     
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/*    */ 
-/* 47 */     tx.commit();
-/* 48 */     session.close();
-/*    */   }
-/*    */   
-/*    */   public List<Users> findAllUser(String sql)
-/*    */   {
-/* 53 */     Session session = null;
-/* 54 */     Transaction tx = null;
-/* 55 */     List<Users> obj = new ArrayList();
-/*    */     try {
-/* 57 */       session = getSession();
-/* 58 */       tx = session.beginTransaction();
-/* 59 */       Query query = getSession().createSQLQuery(sql);
-/* 60 */       ((SQLQuery)query).addEntity("u", Users.class);
-/* 61 */       obj = query.list();
-/* 62 */       tx.commit();
-/*    */     } catch (Exception ex) {
-/* 64 */       System.out.println("查找对象出现错误！");
-/* 65 */       ex.printStackTrace();
-/* 66 */       if (tx != null) {
-/* 67 */         tx.rollback();
-/*    */       }
-/*    */     } finally {
-/* 70 */       if (session != null) {
-/* 71 */         session.clear();
-/* 72 */         session.close();
-/*    */       }
-/*    */     }
-/* 75 */     return obj;
-/*    */   }
-/*    */ }
+package com.guohaoshiye.yueba.dao;
+
+import com.guohaoshiye.yueba.entity.Mailmanagement;
+import com.guohaoshiye.yueba.entity.Users;
+import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
+import java.io.PrintStream;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
+import org.hibernate.Query;
+import org.hibernate.SQLQuery;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.jdbc.Work;
 
 
-/* Location:              C:\Users\liufe\Desktop\yueba_admin\WEB-INF\classes\!\comold\aiwan\dao\MailmanagementDAO.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       0.7.1
- */
+public class MailmanagementDAO
+  extends BaseHibernateDAO<Mailmanagement>
+{
+  public void saveMail(Timestamp d, List<Users> list, String describe)
+  {
+    Session session = getSession();
+    Transaction tx = session.beginTransaction();
+//    session.doWork(new MailmanagementDAO.1(this, list, describe, d));
+    session.doWork(new Work() {
+      int count = 0;
+      @Override
+      public void execute(Connection connection) throws SQLException {
+        String sql = "INSERT INTO mailmanagement (uid,content,state,type,goods,createtime) VALUES (?,?,?,?,?,?)";
+        PreparedStatement ps = connection.prepareStatement(sql);
+        for (Users users : list) {
+          ps.setInt(1, users.getId().intValue());
+//          ps.setString(2, this.val$describe);
+          ps.setString(2, describe);
+          ps.setInt(3, 0);
+          ps.setInt(4, 0);
+          ps.setString(5, "");
+          ps.setTimestamp(6, d);
+          ps.addBatch();
+          if (++count % 1000 == 0) {
+            ps.executeBatch();
+          }
+        }
+        ps.executeBatch();
+      }
+    });
+
+
+    tx.commit();
+    session.close();
+  }
+
+  public List<Users> findAllUser(String sql)
+  {
+    Session session = null;
+    Transaction tx = null;
+    List<Users> obj = new ArrayList();
+    try {
+      session = getSession();
+      tx = session.beginTransaction();
+      Query query = getSession().createSQLQuery(sql);
+      ((SQLQuery)query).addEntity("u", Users.class);
+      obj = query.list();
+      tx.commit();
+    } catch (Exception ex) {
+      System.out.println("查找对象出现错误！");
+      ex.printStackTrace();
+      if (tx != null) {
+        tx.rollback();
+      }
+    } finally {
+      if (session != null) {
+        session.clear();
+        session.close();
+      }
+    }
+    return obj;
+  }
+
+
+
+}
+

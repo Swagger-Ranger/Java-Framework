@@ -3,7 +3,7 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-    <class name="com.aiwan.entity.Proxy_num" table="proxy_num">
+    <class name="com.guohaoshiye.yueba.entity.Proxy_num" table="proxy_num">
         <id name="id" type="java.lang.Integer">
             <column name="id" />
             <generator class="native" />

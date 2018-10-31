@@ -1,4 +1,4 @@
-package com.game.server.web;
+package com.guohaoshiye.game.server.web;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

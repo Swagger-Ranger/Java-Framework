@@ -1,14 +1,9 @@
-package com.aiwan.dao;
+package com.guohaoshiye.yueba.dao;
 
-import com.aiwan.entity.Hallslidingdrawing;
-import com.aiwan.hibernate.BaseHibernateDAO;
+import com.guohaoshiye.yueba.entity.Hallslidingdrawing;
+import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
 
 public class HallslidingdrawingDAO
   extends BaseHibernateDAO<Hallslidingdrawing>
 {}
 
-
-/* Location:              C:\Users\liufe\Desktop\yueba_admin\WEB-INF\classes\!\comold\aiwan\dao\HallslidingdrawingDAO.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       0.7.1
- */

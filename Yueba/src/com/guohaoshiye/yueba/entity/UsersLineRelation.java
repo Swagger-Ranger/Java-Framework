@@ -1,48 +1,43 @@
-/*    */ package com.aiwan.entity;
-/*    */ 
-/*    */ import java.util.Date;
-/*    */ 
-/*    */ public class UsersLineRelation {
-/*    */   private Integer id;
-/*    */   private String userId;
-/*    */   private String lineUserId;
-/*    */   private Date creatTime;
-/*    */   
-/*    */   public Integer getId() {
-/* 12 */     return this.id;
-/*    */   }
-/*    */   
-/*    */   public void setId(Integer id) {
-/* 16 */     this.id = id;
-/*    */   }
-/*    */   
-/*    */   public String getUserId() {
-/* 20 */     return this.userId;
-/*    */   }
-/*    */   
-/*    */   public void setUserId(String userId) {
-/* 24 */     this.userId = userId;
-/*    */   }
-/*    */   
-/*    */   public String getLineUserId() {
-/* 28 */     return this.lineUserId;
-/*    */   }
-/*    */   
-/*    */   public void setLineUserId(String lineUserId) {
-/* 32 */     this.lineUserId = lineUserId;
-/*    */   }
-/*    */   
-/*    */   public Date getCreatTime() {
-/* 36 */     return this.creatTime;
-/*    */   }
-/*    */   
-/*    */   public void setCreatTime(Date creatTime) {
-/* 40 */     this.creatTime = creatTime;
-/*    */   }
-/*    */ }
+package com.guohaoshiye.yueba.entity;
 
+import java.util.Date;
 
-/* Location:              C:\Users\liufe\Desktop\yueba_admin\WEB-INF\classes\!\comold\aiwan\entity\UsersLineRelation.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       0.7.1
- */
+public class UsersLineRelation {
+  private Integer id;
+  private String userId;
+  private String lineUserId;
+  private Date creatTime;
+
+  public Integer getId() {
+    return this.id;
+  }
+
+  public void setId(Integer id) {
+    this.id = id;
+  }
+
+  public String getUserId() {
+    return this.userId;
+  }
+
+  public void setUserId(String userId) {
+    this.userId = userId;
+  }
+
+  public String getLineUserId() {
+    return this.lineUserId;
+  }
+
+  public void setLineUserId(String lineUserId) {
+    this.lineUserId = lineUserId;
+  }
+
+  public Date getCreatTime() {
+    return this.creatTime;
+  }
+
+  public void setCreatTime(Date creatTime) {
+    this.creatTime = creatTime;
+  }
+}
+

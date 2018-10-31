@@ -1,4 +1,4 @@
-package com.game.server.web;
+package com.guohaoshiye.game.server.web;
 
 import java.util.List;
 import javax.jws.WebMethod;
