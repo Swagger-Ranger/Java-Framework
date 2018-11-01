@@ -10,7 +10,7 @@
         <!-- 视图的路径 -->
         <property name="prefix" value="/WEB-INF/"/>
         <!-- 视图名称后缀  -->
-        <property name="suffix" value=".jsp"/>
+        <property name="suffix" value=""/>
     </bean>
 
 </beans>

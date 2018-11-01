@@ -5,13 +5,13 @@
 		import="java.net.MalformedURLException"%> <%@page
 		import="java.net.URL"%> <%@page
 		import="javax.xml.namespace.QName"%> <%@page
-		import="com.aiwan.util.Util"%> <%@page
-		import="com.aiwan.util.MD5Tool"%> <%@page
-		import="com.aiwan.dao.RechargeDAO"%> <%@page
-		import="com.aiwan.entity.Recharge"%> <%@page
-		import="com.aiwan.dao.ParameterDAO"%> <%@page
-		import="com.aiwan.entity.Parameter"%> <%@page
-		import="com.game.server.web.*"%> <%
+		import="com.guohaoshiye.yueba.util.Util"%> <%@page
+		import="com.guohaoshiye.yueba.util.MD5Tool"%> <%@page
+		import="com.guohaoshiye.yueba.dao.RechargeDAO"%> <%@page
+		import="com.guohaoshiye.yueba.entity.Recharge"%> <%@page
+		import="com.guohaoshiye.yueba.dao.ParameterDAO"%> <%@page
+		import="com.guohaoshiye.yueba.entity.Parameter"%> <%@page
+		import="com.guohaoshiye.game.server.web.*"%> <%
  	System.out.println("已进入支付回调。。");
 
  	Enumeration en = request.getParameterNames();

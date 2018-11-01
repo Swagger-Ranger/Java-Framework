@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    <!--source configuration-->
+    <!--source -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>/WEB-INF/applicationContext.xml</param-value>
@@ -21,13 +21,10 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
-    <!-- down is the added configuration-->
     <welcome-file-list>
         <welcome-file>login.jsp</welcome-file>
     </welcome-file-list>
-    <session-config>
-        <session-timeout>30</session-timeout>
-    </session-config>
+
     <filter>
         <filter-name>CheckSession</filter-name>
         <filter-class>com.guohaoshiye.yueba.session.CheckSession</filter-class>
@@ -44,197 +41,14 @@
         <error-code>500</error-code>
         <location>/error/500.jsp</location>
     </error-page>
-    <servlet>
-        <servlet-name>AuthImageServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.AuthImageServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.LoginServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AdminServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.AdminServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>UsersServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.UsersServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>ParameterSrevlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.ParameterSrevlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>RobotServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.RobotServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>HallslidingdrawingServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.HallslidingdrawingServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AcceptServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.AcceptServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>CompleteServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.CompleteServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>TaskServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.TaskServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>MailmanagementServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.MailmanagementServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>PumpLogServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.PumpLogServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>ProxyServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.ProxyServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>GameAlllogServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.GameAlllogServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AdminRechargeLogServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.AdminRechargeLogServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>RechargeServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.RechargeServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>TixianLogServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.TixianLogServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>ProxytoexamineLogServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.ProxytoexamineLogServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>SystemLogServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.SystemLogServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>CommoditypurchaseLogServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.CommoditypurchaseLogServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AdminopLogServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.AdminopLogServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>ProxyKG</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.ProxyKG</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>RobotrechargeServlet</servlet-name>
-        <servlet-class>com.guohaoshiye.yueba.servlet.RobotrechargeServlet</servlet-class>
-    </servlet>
+    <!--<servlet>-->
+        <!--<servlet-name>Hello</servlet-name>-->
+        <!--<servlet-class>com.guohaoshiye.yueba.HelloYueba</servlet-class>-->
+    <!--</servlet>-->
 
-
-
-
-    <servlet-mapping>
-        <servlet-name>AuthImageServlet</servlet-name>
-        <url-pattern>/AuthImageServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/LoginServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>AdminServlet</servlet-name>
-        <url-pattern>/AdminServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>UsersServlet</servlet-name>
-        <url-pattern>/UsersServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>ParameterSrevlet</servlet-name>
-        <url-pattern>/ParameterSrevlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>RobotServlet</servlet-name>
-        <url-pattern>/RobotServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>HallslidingdrawingServlet</servlet-name>
-        <url-pattern>/HallslidingdrawingServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>AcceptServlet</servlet-name>
-        <url-pattern>/AcceptServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>CompleteServlet</servlet-name>
-        <url-pattern>/CompleteServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>TaskServlet</servlet-name>
-        <url-pattern>/TaskServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>MailmanagementServlet</servlet-name>
-        <url-pattern>/MailmanagementServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>PumpLogServlet</servlet-name>
-        <url-pattern>/PumpLogServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>ProxyServlet</servlet-name>
-        <url-pattern>/ProxyServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>GameAlllogServlet</servlet-name>
-        <url-pattern>/GameAlllogServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>AdminRechargeLogServlet</servlet-name>
-        <url-pattern>/AdminRechargeLogServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>RechargeServlet</servlet-name>
-        <url-pattern>/RechargeServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>TixianLogServlet</servlet-name>
-        <url-pattern>/TixianLogServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>ProxytoexamineLogServlet</servlet-name>
-        <url-pattern>/ProxytoexamineLogServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>SystemLogServlet</servlet-name>
-        <url-pattern>/SystemLogServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>CommoditypurchaseLogServlet</servlet-name>
-        <url-pattern>/CommoditypurchaseLogServlet</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>AdminopLogServlet</servlet-name>
-        <url-pattern>/AdminopLogServlet</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>ProxyKG</servlet-name>
-        <url-pattern>/ProxyKG</url-pattern>
-    </servlet-mapping>
-
-    <servlet-mapping>
-        <servlet-name>RobotrechargeServlet</servlet-name>
-        <url-pattern>/RobotrechargeServlet</url-pattern>
-    </servlet-mapping>
-
-    <!--up is the added configuration-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>Hello</servlet-name>-->
+        <!--<url-pattern>/greet/hello</url-pattern>-->
+    <!--</servlet-mapping>-->
 
 </web-app>
