@@ -1,8 +1,8 @@
 package com.guohaoshiye.yueba.servlet;
 
 import com.guohaoshiye.yueba.dao.ProxyDAO;
-import com.guohaoshiye.yueba.entity.Proxy;
-import com.guohaoshiye.yueba.entity.Proxy_class;
+import com.guohaoshiye.yueba.entity_olddemo.Proxy;
+import com.guohaoshiye.yueba.entity_olddemo.Proxy_class;
 import com.guohaoshiye.yueba.hibernate.HibernateSessionFactory;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -13,10 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import org.hibernate.Query;
-import org.hibernate.SQLQuery;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
 
 
 public class ProxyKG

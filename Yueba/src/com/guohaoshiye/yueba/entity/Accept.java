@@ -1,62 +1,80 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: Accept
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import java.util.Objects;
 
-public class Accept
-  implements Serializable
-{
-  private Integer id;
-  private Integer acceptcondition;
-  private String otherconditions;
-  private String describe;
+@Entity
+public class Accept {
+    private int id;
+    private int acceptcondition;
+    private String otherconditions;
+    private String describe;
 
-  public Accept() {}
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
-  public Accept(Integer acceptcondition)
-  {
-    this.acceptcondition = acceptcondition;
-  }
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    @Basic
+    @Column(name = "acceptcondition")
+    public int getAcceptcondition() {
+        return acceptcondition;
+    }
 
-  public Accept(Integer acceptcondition, String otherconditions, String describe)
-  {
-    this.acceptcondition = acceptcondition;
-    this.otherconditions = otherconditions;
-    this.describe = describe;
-  }
+    public void setAcceptcondition(int acceptcondition) {
+        this.acceptcondition = acceptcondition;
+    }
 
+    @Basic
+    @Column(name = "otherconditions")
+    public String getOtherconditions() {
+        return otherconditions;
+    }
 
-  public Integer getId()
-  {
-    return this.id;
-  }
+    public void setOtherconditions(String otherconditions) {
+        this.otherconditions = otherconditions;
+    }
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
+    @Basic
+    @Column(name = "describe")
+    public String getDescribe() {
+        return describe;
+    }
 
-  public Integer getAcceptcondition() {
-    return this.acceptcondition;
-  }
+    public void setDescribe(String describe) {
+        this.describe = describe;
+    }
 
-  public void setAcceptcondition(Integer acceptcondition) {
-    this.acceptcondition = acceptcondition;
-  }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Accept accept = (Accept) o;
+        return id == accept.id &&
+                acceptcondition == accept.acceptcondition &&
+                Objects.equals(otherconditions, accept.otherconditions) &&
+                Objects.equals(describe, accept.describe);
+    }
 
-  public String getOtherconditions() {
-    return this.otherconditions;
-  }
-
-  public void setOtherconditions(String otherconditions) {
-    this.otherconditions = otherconditions;
-  }
-
-  public String getDescribe() {
-    return this.describe;
-  }
-
-  public void setDescribe(String describe) {
-    this.describe = describe;
-  }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, acceptcondition, otherconditions, describe);
+    }
 }
-

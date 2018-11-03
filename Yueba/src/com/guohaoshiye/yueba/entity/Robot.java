@@ -1,199 +1,273 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: Robot
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.sql.Timestamp;
+import java.util.Objects;
 
+@Entity
+public class Robot {
+    private int id;
+    private String account;
+    private String password;
+    private String nickname;
+    private Byte type;
+    private Byte sex;
+    private String head;
+    private Byte headType;
+    private Integer gold;
+    private Integer diamonds;
+    private Integer integral;
+    private Byte status;
+    private String ip;
+    private Timestamp logintime;
+    private Timestamp createtime;
+    private Integer everydaysign;
+    private Integer pid;
+    private String autograph;
+    private String task;
+    private String prop;
 
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
-public class Robot
-  implements Serializable
-{
-  private Integer id;
-  private String account;
-  private String password;
-  private String nickname;
-  private Short type;
-  private Short sex;
-  private String head;
-  private Short headType;
-  private Integer gold;
-  private Integer diamonds;
-  private Integer integral;
-  private Short status;
-  private String ip;
-  private Timestamp logintime;
-  private Timestamp createtime;
-  private Integer everydaysign;
-  private Integer pid;
-  private String autograph;
+    public void setId(int id) {
+        this.id = id;
+    }
 
-  public Robot() {}
+    @Basic
+    @Column(name = "account")
+    public String getAccount() {
+        return account;
+    }
 
-  public Robot(String account, String password, String nickname, Short type, Short sex, String head, Short headType, Integer gold, Integer diamonds, Integer integral, Short status, String ip, Timestamp logintime, Timestamp createtime, Integer everydaysign, Integer pid, String autograph)
-  {
-    this.account = account;
-    this.password = password;
-    this.nickname = nickname;
-    this.type = type;
-    this.sex = sex;
-    this.head = head;
-    this.headType = headType;
-    this.gold = gold;
-    this.diamonds = diamonds;
-    this.integral = integral;
-    this.status = status;
-    this.ip = ip;
-    this.logintime = logintime;
-    this.createtime = createtime;
-    this.everydaysign = everydaysign;
-    this.pid = pid;
-    this.autograph = autograph;
-  }
+    public void setAccount(String account) {
+        this.account = account;
+    }
 
+    @Basic
+    @Column(name = "password")
+    public String getPassword() {
+        return password;
+    }
 
-  public Integer getId()
-  {
-    return this.id;
-  }
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
+    @Basic
+    @Column(name = "nickname")
+    public String getNickname() {
+        return nickname;
+    }
 
-  public String getAccount() {
-    return this.account;
-  }
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
+    }
 
-  public void setAccount(String account) {
-    this.account = account;
-  }
+    @Basic
+    @Column(name = "type")
+    public Byte getType() {
+        return type;
+    }
 
-  public String getPassword() {
-    return this.password;
-  }
+    public void setType(Byte type) {
+        this.type = type;
+    }
 
-  public void setPassword(String password) {
-    this.password = password;
-  }
+    @Basic
+    @Column(name = "sex")
+    public Byte getSex() {
+        return sex;
+    }
 
-  public String getNickname() {
-    return this.nickname;
-  }
+    public void setSex(Byte sex) {
+        this.sex = sex;
+    }
 
-  public void setNickname(String nickname) {
-    this.nickname = nickname;
-  }
+    @Basic
+    @Column(name = "head")
+    public String getHead() {
+        return head;
+    }
 
-  public Short getType() {
-    return this.type;
-  }
+    public void setHead(String head) {
+        this.head = head;
+    }
 
-  public void setType(Short type) {
-    this.type = type;
-  }
+    @Basic
+    @Column(name = "headType")
+    public Byte getHeadType() {
+        return headType;
+    }
 
-  public Short getSex() {
-    return this.sex;
-  }
+    public void setHeadType(Byte headType) {
+        this.headType = headType;
+    }
 
-  public void setSex(Short sex) {
-    this.sex = sex;
-  }
+    @Basic
+    @Column(name = "gold")
+    public Integer getGold() {
+        return gold;
+    }
 
-  public String getHead() {
-    return this.head;
-  }
+    public void setGold(Integer gold) {
+        this.gold = gold;
+    }
 
-  public void setHead(String head) {
-    this.head = head;
-  }
+    @Basic
+    @Column(name = "diamonds")
+    public Integer getDiamonds() {
+        return diamonds;
+    }
 
-  public Short getHeadType() {
-    return this.headType;
-  }
+    public void setDiamonds(Integer diamonds) {
+        this.diamonds = diamonds;
+    }
 
-  public void setHeadType(Short headType) {
-    this.headType = headType;
-  }
+    @Basic
+    @Column(name = "integral")
+    public Integer getIntegral() {
+        return integral;
+    }
 
-  public Integer getGold() {
-    return this.gold;
-  }
+    public void setIntegral(Integer integral) {
+        this.integral = integral;
+    }
 
-  public void setGold(Integer gold) {
-    this.gold = gold;
-  }
+    @Basic
+    @Column(name = "status")
+    public Byte getStatus() {
+        return status;
+    }
 
-  public Integer getDiamonds() {
-    return this.diamonds;
-  }
+    public void setStatus(Byte status) {
+        this.status = status;
+    }
 
-  public void setDiamonds(Integer diamonds) {
-    this.diamonds = diamonds;
-  }
+    @Basic
+    @Column(name = "ip")
+    public String getIp() {
+        return ip;
+    }
 
-  public Integer getIntegral() {
-    return this.integral;
-  }
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
 
-  public void setIntegral(Integer integral) {
-    this.integral = integral;
-  }
+    @Basic
+    @Column(name = "logintime")
+    public Timestamp getLogintime() {
+        return logintime;
+    }
 
-  public Short getStatus() {
-    return this.status;
-  }
+    public void setLogintime(Timestamp logintime) {
+        this.logintime = logintime;
+    }
 
-  public void setStatus(Short status) {
-    this.status = status;
-  }
+    @Basic
+    @Column(name = "createtime")
+    public Timestamp getCreatetime() {
+        return createtime;
+    }
 
-  public String getIp() {
-    return this.ip;
-  }
+    public void setCreatetime(Timestamp createtime) {
+        this.createtime = createtime;
+    }
 
-  public void setIp(String ip) {
-    this.ip = ip;
-  }
+    @Basic
+    @Column(name = "everydaysign")
+    public Integer getEverydaysign() {
+        return everydaysign;
+    }
 
-  public Timestamp getLogintime() {
-    return this.logintime;
-  }
+    public void setEverydaysign(Integer everydaysign) {
+        this.everydaysign = everydaysign;
+    }
 
-  public void setLogintime(Timestamp logintime) {
-    this.logintime = logintime;
-  }
+    @Basic
+    @Column(name = "pid")
+    public Integer getPid() {
+        return pid;
+    }
 
-  public Timestamp getCreatetime() {
-    return this.createtime;
-  }
+    public void setPid(Integer pid) {
+        this.pid = pid;
+    }
 
-  public void setCreatetime(Timestamp createtime) {
-    this.createtime = createtime;
-  }
+    @Basic
+    @Column(name = "autograph")
+    public String getAutograph() {
+        return autograph;
+    }
 
-  public Integer getEverydaysign() {
-    return this.everydaysign;
-  }
+    public void setAutograph(String autograph) {
+        this.autograph = autograph;
+    }
 
-  public void setEverydaysign(Integer everydaysign) {
-    this.everydaysign = everydaysign;
-  }
+    @Basic
+    @Column(name = "task")
+    public String getTask() {
+        return task;
+    }
 
-  public Integer getPid() {
-    return this.pid;
-  }
+    public void setTask(String task) {
+        this.task = task;
+    }
 
-  public void setPid(Integer pid) {
-    this.pid = pid;
-  }
+    @Basic
+    @Column(name = "prop")
+    public String getProp() {
+        return prop;
+    }
 
-  public String getAutograph() {
-    return this.autograph;
-  }
+    public void setProp(String prop) {
+        this.prop = prop;
+    }
 
-  public void setAutograph(String autograph) {
-    this.autograph = autograph;
-  }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Robot robot = (Robot) o;
+        return id == robot.id &&
+                Objects.equals(account, robot.account) &&
+                Objects.equals(password, robot.password) &&
+                Objects.equals(nickname, robot.nickname) &&
+                Objects.equals(type, robot.type) &&
+                Objects.equals(sex, robot.sex) &&
+                Objects.equals(head, robot.head) &&
+                Objects.equals(headType, robot.headType) &&
+                Objects.equals(gold, robot.gold) &&
+                Objects.equals(diamonds, robot.diamonds) &&
+                Objects.equals(integral, robot.integral) &&
+                Objects.equals(status, robot.status) &&
+                Objects.equals(ip, robot.ip) &&
+                Objects.equals(logintime, robot.logintime) &&
+                Objects.equals(createtime, robot.createtime) &&
+                Objects.equals(everydaysign, robot.everydaysign) &&
+                Objects.equals(pid, robot.pid) &&
+                Objects.equals(autograph, robot.autograph) &&
+                Objects.equals(task, robot.task) &&
+                Objects.equals(prop, robot.prop);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, account, password, nickname, type, sex, head, headType, gold, diamonds, integral, status, ip, logintime, createtime, everydaysign, pid, autograph, task, prop);
+    }
 }
-

@@ -1,32 +1,10 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.ProxytoexamineLog;
+import com.guohaoshiye.yueba.entity_olddemo.ProxytoexamineLog;
 import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
 import com.guohaoshiye.yueba.hibernate.PageModel;
 import java.math.BigInteger;
 import org.hibernate.Query;
-import org.hibernate.Session;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 public class ProxytoexamineLogDAO

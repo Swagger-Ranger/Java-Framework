@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.guohaoshiye.yueba.entity.ZengsongLog" table="zengsong_log" schema="yueba">
+        <id name="id" column="id"/>
+        <property name="pid" column="pid"/>
+        <property name="uid" column="uid"/>
+        <property name="money" column="money"/>
+        <property name="status" column="status"/>
+        <property name="createtime" column="createtime"/>
+    </class>
+</hibernate-mapping>

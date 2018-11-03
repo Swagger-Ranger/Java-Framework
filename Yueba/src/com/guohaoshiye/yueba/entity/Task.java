@@ -1,104 +1,116 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: Task
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import java.util.Objects;
 
+@Entity
+public class Task {
+    private int id;
+    private int acceptid;
+    private int completeid;
+    private String reward;
+    private Integer type;
+    private int state;
+    private String describe;
 
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    @Basic
+    @Column(name = "acceptid")
+    public int getAcceptid() {
+        return acceptid;
+    }
 
+    public void setAcceptid(int acceptid) {
+        this.acceptid = acceptid;
+    }
 
+    @Basic
+    @Column(name = "completeid")
+    public int getCompleteid() {
+        return completeid;
+    }
 
+    public void setCompleteid(int completeid) {
+        this.completeid = completeid;
+    }
 
+    @Basic
+    @Column(name = "reward")
+    public String getReward() {
+        return reward;
+    }
 
+    public void setReward(String reward) {
+        this.reward = reward;
+    }
 
-public class Task
-  implements Serializable
-{
-  private Integer id;
-  private Integer acceptid;
-  private Integer completeid;
-  private String reward;
-  private Integer type;
-  private Integer state;
-  private String describe;
+    @Basic
+    @Column(name = "type")
+    public Integer getType() {
+        return type;
+    }
 
-  public Task() {}
+    public void setType(Integer type) {
+        this.type = type;
+    }
 
-  public Task(Integer acceptid, Integer completeid, String reward, Integer state)
-  {
-    this.acceptid = acceptid;
-    this.completeid = completeid;
-    this.reward = reward;
-    this.state = state;
-  }
+    @Basic
+    @Column(name = "state")
+    public int getState() {
+        return state;
+    }
 
+    public void setState(int state) {
+        this.state = state;
+    }
 
-  public Task(Integer acceptid, Integer completeid, String reward, Integer type, Integer state, String describe)
-  {
-    this.acceptid = acceptid;
-    this.completeid = completeid;
-    this.reward = reward;
-    this.type = type;
-    this.state = state;
-    this.describe = describe;
-  }
+    @Basic
+    @Column(name = "describe")
+    public String getDescribe() {
+        return describe;
+    }
 
+    public void setDescribe(String describe) {
+        this.describe = describe;
+    }
 
-  public Integer getId()
-  {
-    return this.id;
-  }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Task task = (Task) o;
+        return id == task.id &&
+                acceptid == task.acceptid &&
+                completeid == task.completeid &&
+                state == task.state &&
+                Objects.equals(reward, task.reward) &&
+                Objects.equals(type, task.type) &&
+                Objects.equals(describe, task.describe);
+    }
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
-
-  public Integer getAcceptid() {
-    return this.acceptid;
-  }
-
-  public void setAcceptid(Integer acceptid) {
-    this.acceptid = acceptid;
-  }
-
-  public Integer getCompleteid() {
-    return this.completeid;
-  }
-
-  public void setCompleteid(Integer completeid) {
-    this.completeid = completeid;
-  }
-
-  public String getReward() {
-    return this.reward;
-  }
-
-  public void setReward(String reward) {
-    this.reward = reward;
-  }
-
-  public Integer getType() {
-    return this.type;
-  }
-
-  public void setType(Integer type) {
-    this.type = type;
-  }
-
-  public Integer getState() {
-    return this.state;
-  }
-
-  public void setState(Integer state) {
-    this.state = state;
-  }
-
-  public String getDescribe() {
-    return this.describe;
-  }
-
-  public void setDescribe(String describe) {
-    this.describe = describe;
-  }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, acceptid, completeid, reward, type, state, describe);
+    }
 }
-

@@ -1,9 +1,9 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.AdminRechargeLog;
+import com.guohaoshiye.yueba.entity_olddemo.AdminRechargeLog;
 import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
 import com.guohaoshiye.yueba.hibernate.PageModel;
-import java.io.PrintStream;
+
 import java.math.BigInteger;
 import org.hibernate.Query;
 import org.hibernate.Session;

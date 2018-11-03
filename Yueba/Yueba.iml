@@ -3,13 +3,17 @@
   <component name="FacetManager">
     <facet type="hibernate" name="Hibernate">
       <configuration>
-        <datasource-map />
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="b36e9b09-9c5b-4a9b-a6e9-53fa78bab886" />
+        </datasource-map>
         <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
       </configuration>
     </facet>
     <facet type="web" name="Web">
       <configuration>
         <descriptors>
+          <deploymentDescriptor name="context.xml" url="file://$MODULE_DIR$/web/META-INF/context.xml" />
           <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
         </descriptors>
         <webroots>
@@ -18,7 +22,12 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/web/WEB-INF/dispatcher-servlet.xml</file>
+          <file>file://$MODULE_DIR$/web/WEB-INF/applicationContext.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
@@ -28,10 +37,22 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Hibernate 5.3.7-5.3.7" level="project" />
-    <orderEntry type="library" name="Spring-4.3.18.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Hibernate 5.3.7-5.3.7" level="project" />
+    <orderEntry type="library" exported="" name="Spring-4.3.18.RELEASE" level="project" />
     <orderEntry type="library" name="Spring Web Services-2.0.2" level="project" />
-    <orderEntry type="library" name="Spring MVC-4.3.18.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Spring MVC-4.3.18.RELEASE" level="project" />
     <orderEntry type="library" name="Spring Integration-4.0.3" level="project" />
+    <orderEntry type="library" exported="" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/GuoHaoShiye/apache-tomcat/Yueba-olddemo/apache-tomcat-9.0.12/product/TTXChaguan_admin/WEB-INF/lib/commons-fileupload-1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="Yueba-olddemolib" level="project" />
+    <orderEntry type="library" name="ezmorph-1.0.6" level="project" />
   </component>
 </module>

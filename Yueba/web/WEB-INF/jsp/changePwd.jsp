@@ -1,6 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
 <%@ page import="com.guohaoshiye.yueba.util.Util"%>
-<%@ page import="com.guohaoshiye.yueba.entity.*"%>
+<%@ page import="com.guohaoshiye.yueba.entity_olddemo.*"%>
 <%@ page import="java.util.Map"%>
 <%@ page import="java.util.Map.Entry"%>
 

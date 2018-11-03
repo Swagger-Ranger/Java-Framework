@@ -2,9 +2,9 @@
 
  import com.guohaoshiye.yueba.dao.AdminDAO;
  import com.guohaoshiye.yueba.dao.AdminRoleDAO;
- import com.guohaoshiye.yueba.entity.Admin;
- import com.guohaoshiye.yueba.entity.AdminMenu;
- import com.guohaoshiye.yueba.entity.AdminRole;
+ import com.guohaoshiye.yueba.entity_olddemo.Admin;
+ import com.guohaoshiye.yueba.entity_olddemo.AdminMenu;
+ import com.guohaoshiye.yueba.entity_olddemo.AdminRole;
  import com.guohaoshiye.yueba.hibernate.PageModel;
  import com.guohaoshiye.yueba.util.Util;
  import com.alibaba.fastjson.JSONArray;
@@ -19,10 +19,7 @@
  import java.util.Date;
  import java.util.List;
  import java.util.Map;
- import java.util.Map.Entry;
  import java.util.Set;
- import javax.servlet.RequestDispatcher;
- import javax.servlet.ServletContext;
  import javax.servlet.ServletException;
  import javax.servlet.http.HttpServlet;
  import javax.servlet.http.HttpServletRequest;

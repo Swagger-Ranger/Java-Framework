@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.guohaoshiye.yueba.entity.RewardLog" table="reward_log" schema="yueba">
+        <id name="id" column="id"/>
+        <property name="userId" column="userId"/>
+        <property name="gold" column="gold"/>
+        <property name="diamonds" column="diamonds"/>
+        <property name="integral" column="integral"/>
+        <property name="reward" column="reward"/>
+        <property name="createTime" column="create_time"/>
+    </class>
+</hibernate-mapping>

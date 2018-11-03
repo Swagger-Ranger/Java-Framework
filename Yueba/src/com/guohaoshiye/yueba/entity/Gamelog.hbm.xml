@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.guohaoshiye.yueba.entity.Gamelog" table="gamelog" schema="yueba">
+        <id name="id" column="id"/>
+        <property name="roomNumber" column="roomNumber"/>
+        <property name="playtype" column="playtype"/>
+        <property name="gamechang" column="gamechang"/>
+        <property name="userid" column="userid"/>
+        <property name="score" column="score"/>
+        <property name="playback" column="playback"/>
+        <property name="creattime" column="creattime"/>
+    </class>
+</hibernate-mapping>

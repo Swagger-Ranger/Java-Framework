@@ -1,131 +1,117 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: Admin
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.sql.Timestamp;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Objects;
 
-public class Admin
-  implements Serializable
-{
-  private Integer id;
-  private String adminname;
-  private String password;
-  private String head;
-  private Timestamp logintime;
-  private Timestamp createtime;
-  private String opname;
-  private Set adminRoles = new HashSet(0);
+@Entity
+public class Admin {
+    private int id;
+    private String adminname;
+    private String password;
+    private String head;
+    private Timestamp logintime;
+    private Timestamp createtime;
+    private String opname;
 
-  private Integer adminHomeOp1;
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
-  private Integer adminHomeOp2;
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    @Basic
+    @Column(name = "adminname")
+    public String getAdminname() {
+        return adminname;
+    }
 
-  public Admin() {}
+    public void setAdminname(String adminname) {
+        this.adminname = adminname;
+    }
 
-  public Admin(String adminname, String password, String head, Timestamp logintime, String opname)
-  {
-    this.adminname = adminname;
-    this.password = password;
-    this.head = head;
-    this.logintime = logintime;
-    this.opname = opname;
-  }
+    @Basic
+    @Column(name = "password")
+    public String getPassword() {
+        return password;
+    }
 
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
+    @Basic
+    @Column(name = "head")
+    public String getHead() {
+        return head;
+    }
 
-  public Admin(String adminname, String password, String head, Timestamp logintime, Timestamp createtime, String opname, Set adminRoles)
-  {
-    this.adminname = adminname;
-    this.password = password;
-    this.head = head;
-    this.logintime = logintime;
-    this.createtime = createtime;
-    this.opname = opname;
-    this.adminRoles = adminRoles;
-  }
+    public void setHead(String head) {
+        this.head = head;
+    }
 
+    @Basic
+    @Column(name = "logintime")
+    public Timestamp getLogintime() {
+        return logintime;
+    }
 
-  public Integer getId()
-  {
-    return this.id;
-  }
+    public void setLogintime(Timestamp logintime) {
+        this.logintime = logintime;
+    }
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
+    @Basic
+    @Column(name = "createtime")
+    public Timestamp getCreatetime() {
+        return createtime;
+    }
 
-  public String getAdminname() {
-    return this.adminname;
-  }
+    public void setCreatetime(Timestamp createtime) {
+        this.createtime = createtime;
+    }
 
-  public void setAdminname(String adminname) {
-    this.adminname = adminname;
-  }
+    @Basic
+    @Column(name = "opname")
+    public String getOpname() {
+        return opname;
+    }
 
-  public String getPassword() {
-    return this.password;
-  }
+    public void setOpname(String opname) {
+        this.opname = opname;
+    }
 
-  public void setPassword(String password) {
-    this.password = password;
-  }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Admin admin = (Admin) o;
+        return id == admin.id &&
+                Objects.equals(adminname, admin.adminname) &&
+                Objects.equals(password, admin.password) &&
+                Objects.equals(head, admin.head) &&
+                Objects.equals(logintime, admin.logintime) &&
+                Objects.equals(createtime, admin.createtime) &&
+                Objects.equals(opname, admin.opname);
+    }
 
-  public String getHead() {
-    return this.head;
-  }
-
-  public void setHead(String head) {
-    this.head = head;
-  }
-
-  public Timestamp getLogintime() {
-    return this.logintime;
-  }
-
-  public void setLogintime(Timestamp logintime) {
-    this.logintime = logintime;
-  }
-
-  public Timestamp getCreatetime() {
-    return this.createtime;
-  }
-
-  public void setCreatetime(Timestamp createtime) {
-    this.createtime = createtime;
-  }
-
-  public Set getAdminRoles() {
-    return this.adminRoles;
-  }
-
-  public void setAdminRoles(Set adminRoles) {
-    this.adminRoles = adminRoles;
-  }
-
-  public String getOpname() {
-    return this.opname;
-  }
-
-  public void setOpname(String opname) {
-    this.opname = opname;
-  }
-
-  public Integer getAdminHomeOp1() {
-    return this.adminHomeOp1;
-  }
-
-  public void setAdminHomeOp1(Integer adminHomeOp1) {
-    this.adminHomeOp1 = adminHomeOp1;
-  }
-
-  public Integer getAdminHomeOp2() {
-    return this.adminHomeOp2;
-  }
-
-  public void setAdminHomeOp2(Integer adminHomeOp2) {
-    this.adminHomeOp2 = adminHomeOp2;
-  }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, adminname, password, head, logintime, createtime, opname);
+    }
 }
-

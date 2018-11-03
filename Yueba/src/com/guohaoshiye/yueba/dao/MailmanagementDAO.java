@@ -1,9 +1,9 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.Mailmanagement;
-import com.guohaoshiye.yueba.entity.Users;
+import com.guohaoshiye.yueba.entity_olddemo.Mailmanagement;
+import com.guohaoshiye.yueba.entity_olddemo.Users;
 import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
-import java.io.PrintStream;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;

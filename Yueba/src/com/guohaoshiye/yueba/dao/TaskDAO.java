@@ -1,9 +1,8 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.Task;
+import com.guohaoshiye.yueba.entity_olddemo.Task;
 import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
 import com.guohaoshiye.yueba.hibernate.PageModel;
-import java.io.PrintStream;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.Transaction;

@@ -6,29 +6,316 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d54a4f28-69b9-42bf-a923-1242e0b37387" name="Default Changelist" comment="">
+    <list default="true" id="d54a4f28-69b9-42bf-a923-1242e0b37387" name="Default Changelist" comment="save the jsp code">
       <change afterPath="$PROJECT_DIR$/../Hello-Spring/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Hello-Spring/src/com/SwaggerRanger/SpringMVC/HelloSpring/HelloController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Hello-Spring/web/WEB-INF/Hello/sayHello.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Hello-Spring/web/WEB-INF/applicationContext.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Hello-Spring/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Yueba_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2fe99d83-25c6-44d1-b2d5-6bc6f7b1529c/storage_v2/_src_/schema/yueba.yNLfBg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2fe99d83-25c6-44d1-b2d5-6bc6f7b1529c/storage_v2/_src_/schema/yueba.yNLfBg.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b36e9b09-9c5b-4a9b-a6e9-53fa78bab886.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b36e9b09-9c5b-4a9b-a6e9-53fa78bab886/storage_v2/_src_/schema/yueba.yNLfBg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b36e9b09-9c5b-4a9b-a6e9-53fa78bab886/storage_v2/_src_/schema/yueba.yNLfBg.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_3_7_5_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Integration_4_0_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Web_Services_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Yueba.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/HelloYueba.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Yueba_olddemolib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniqueIdentifierSystem/UniqueIdentifierSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniqueIdentifierSystem/src/com/guohaoshiye/uniqueIdentifier/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.8.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.0.4.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javassist-3.23.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.ejb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.jms.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.resource.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-amqp-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-core-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-event-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-feed-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-file-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-ftp-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-gemfire-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-groovy-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-http-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-ip-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-jdbc-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-jms-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-jmx-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-jpa-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-mail-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-mongodb-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-mqtt-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-redis-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-rmi-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-scripting-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-security-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-sftp-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-stream-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-syslog-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-test-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-twitter-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-ws-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-xml-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-integration-xmpp-4.0.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-web-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-portlet-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-websocket-4.3.18.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-ws.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Announcement.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Announcement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ArewardLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ArewardLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ChangciConfig.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ChangciConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Checkcode.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Checkcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/DailylandingGift.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/DailylandingGift.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/EmailType.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/EmailType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Exchange.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Exchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Gamelog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Gamelog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GiveIntegralLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GiveIntegralLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GiveIntegralSettings.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GiveIntegralSettings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GuizeConfig.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GuizeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Guizezhu.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Guizezhu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/LoginLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/LoginLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Matching.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Matching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/MatchingConfig.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/MatchingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/NiuniugameLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/NiuniugameLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Practice.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxyNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/RewardLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/RewardLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/RobotIntegralChangeLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/RobotIntegralChangeLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Roomconfig.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Roomconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ShareLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ShareLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/UsersFundsFlowLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/UsersFundsFlowLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/UsersLineSumLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/UsersLineSumLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ZengsongLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ZengsongLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Accept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/AdminMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/AdminRechargeLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/AdminRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/AdminopLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/CommoditypurchaseLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Complete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/GameAlllog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Hallslidingdrawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Mailmanagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/ProxytoexamineLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/PumpLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Recharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Robot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Robotrecharge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/SystemLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/TixianLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/UsersLineRelation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Accept.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Admin.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/AdminMenu.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/AdminRechargeLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/AdminRole.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/AdminopLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/CommoditypurchaseLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Complete.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/GameAlllog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Hallslidingdrawing.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Mailmanagement.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Parameter.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Proxy.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Proxy_class.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Proxy_num.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/ProxytoexamineLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/PumpLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Recharge.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Robot.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Robotrecharge.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/SystemLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Task.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/TixianLog.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Users.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/UsersLineRelation.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestHibernateConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/log/log_debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/log/log_error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/log/log_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Yueba_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Yueba_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Yueba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Yueba.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/HelloYueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/HelloYueba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AcceptDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AcceptDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminMenuDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminMenuDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminRechargeLogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminRechargeLogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminRoleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminRoleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminopLogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminopLogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/CommoditypurchaseLogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/CommoditypurchaseLogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/CompleteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/CompleteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/GameAlllogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/GameAlllogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/HallslidingdrawingDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/HallslidingdrawingDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/MailmanagementDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/MailmanagementDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/ParameterDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/ParameterDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/ProxyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/ProxyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/ProxytoexamineLogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/ProxytoexamineLogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/PumpLogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/PumpLogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/RechargeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/RechargeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/RobotDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/RobotDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/RobotrechargeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/RobotrechargeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/SystemLogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/SystemLogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/TaskDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/TaskDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/TixianLogDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/TixianLogDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/UsersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/UsersDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Accept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Accept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminRechargeLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminRechargeLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminopLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminopLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/CommoditypurchaseLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/CommoditypurchaseLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Complete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Complete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GameAlllog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GameAlllog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Hallslidingdrawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Hallslidingdrawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Mailmanagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Mailmanagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Parameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Parameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Proxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Proxy_class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Proxy_class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Proxy_num.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/Proxy_num.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxytoexamineLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxytoexamineLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/PumpLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/PumpLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Recharge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Recharge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Robotrecharge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Robotrecharge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/SystemLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/SystemLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/TixianLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/TixianLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/TreeNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/TreeNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/UsersLineRelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/UsersLineRelation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Accept.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Accept.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Admin.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Admin.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/AdminMenu.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminMenu.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/AdminRechargeLog.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminRechargeLog.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/AdminRole.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminRole.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/AdminopLog.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminopLog.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/CommoditypurchaseLog.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/CommoditypurchaseLog.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Complete.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Complete.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/GameAlllog.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GameAlllog.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Hallslidingdrawing.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Hallslidingdrawing.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Mailmanagement.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Mailmanagement.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Parameter.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Parameter.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Proxy.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Proxy.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Proxy_class.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxyClass.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Proxy_num.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxyNum.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/ProxytoexamineLog.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxytoexamineLog.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/PumpLog.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/PumpLog.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Recharge.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Recharge.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Robot.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Robot.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Robotrecharge.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Robotrecharge.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/SystemLog.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/SystemLog.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Task.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Task.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/TixianLog.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/TixianLog.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Users.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Users.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/UsersLineRelation.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/UsersLineRelation.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/HibernateSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/HibernateSessionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/PageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/PageModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AcceptServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AcceptServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AdminRechargeLogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AdminRechargeLogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AdminServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AdminServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AdminopLogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AdminopLogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/CommoditypurchaseLogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/CommoditypurchaseLogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/CompleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/CompleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/GameAlllogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/GameAlllogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/HallslidingdrawingServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/HallslidingdrawingServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/MailmanagementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/MailmanagementServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/ParameterSrevlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/ParameterSrevlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/ProxyKG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/ProxyKG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/ProxyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/ProxyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/ProxytoexamineLogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/ProxytoexamineLogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/PumpLogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/PumpLogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/RechargeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/RechargeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/RobotServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/RobotServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/RobotrechargeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/RobotrechargeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/SystemLogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/SystemLogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/TaskServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/TaskServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/TixianLogServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/TixianLogServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/UsersServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/UsersServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/session/CheckSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/session/CheckSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/util/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/guohaoshiye/yueba/util/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/changePwd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/changePwd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/proxytixian_check.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/proxytixian_check.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/robotList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/robotList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/usersList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/usersList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/error/500.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/error/500.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pay_url.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/pay_url.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,51 +324,96 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="488129097">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="14" />
-          <entry key="jsp" value="2" />
-          <entry key="xml" value="4" />
+          <entry key="class" value="7" />
+          <entry key="hbm" value="1" />
+          <entry key="java" value="301" />
+          <entry key="js" value="1" />
+          <entry key="json" value="4" />
+          <entry key="jsp" value="64" />
+          <entry key="log" value="11" />
+          <entry key="properties" value="1" />
+          <entry key="rnc" value="1" />
+          <entry key="sql" value="3" />
+          <entry key="txt" value="2" />
+          <entry key="users" value="1" />
+          <entry key="xml" value="139" />
+          <entry key="xml/Yueba/hibernate/Hibernate/PersistenceModel" value="1" />
+          <entry key="xsd" value="1" />
+          <entry key="读者须知" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="14" />
-          <entry key="JSP" value="2" />
-          <entry key="XML" value="4" />
+          <entry key="CLASS" value="7" />
+          <entry key="Database Element" value="1" />
+          <entry key="JAVA" value="301" />
+          <entry key="JSON" value="4" />
+          <entry key="JSP" value="64" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Log" value="8" />
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Properties" value="1" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="Scratch" value="3" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="140" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="165" />
-          <entry key="jsp" value="118" />
-          <entry key="txt" value="35" />
-          <entry key="xml" value="5" />
+          <entry key="java" value="1781" />
+          <entry key="js" value="1" />
+          <entry key="jsp" value="329" />
+          <entry key="properties" value="57" />
+          <entry key="txt" value="51" />
+          <entry key="xml" value="574" />
+          <entry key="xsd" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="165" />
-          <entry key="JSP" value="118" />
-          <entry key="PLAIN_TEXT" value="35" />
-          <entry key="XML" value="5" />
+          <entry key="JAVA" value="1781" />
+          <entry key="JSP" value="329" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="51" />
+          <entry key="Properties" value="57" />
+          <entry key="XML" value="577" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.compare" value="1" />
+          <entry key="git.branch.compare" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -89,93 +421,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AcceptDAO.java">
+      <file pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/TestHibernateConnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+            <state relative-caret-position="367">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-995">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/HibernateSessionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="93">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/json/images.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/json/navs.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/json/newsList.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/json/userface.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Accept.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/HallslidingdrawingDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/game/server/web/AddGold.java">
+        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminRoleDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/BaseHibernateDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/HibernateSessionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Hallslidingdrawing.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminopLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-185">
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/MailmanagementDAO$1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="25" selection-start-column="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/MailmanagementDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/IBaseHibernateDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/PageModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="42" selection-start-column="42" selection-end-column="42" />
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -186,8 +507,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -197,20 +518,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/usersList.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/changePwd.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/main.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/proxytixian_check.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/robotList.jsp" />
+        <option value="$PROJECT_DIR$/web/pay_url.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/../../../JavaSrc/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/HelloYueba.jsp" />
-        <option value="$PROJECT_DIR$/src/HelloYueba.java" />
         <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/HelloYueba.java" />
-        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AcceptDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminopLogDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/BaseHibernateDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/IBaseHibernateDAO.java" />
+        <option value="$PROJECT_DIR$/web/error/404.jsp" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity_olddemo/hbm/Admin.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AcceptServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/PageModel.java" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/session/CheckSession.java" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Accept.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminMenu.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminopLog.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminRechargeLog.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminRole.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/CommoditypurchaseLog.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Complete.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/GameAlllog.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Hallslidingdrawing.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Mailmanagement.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Parameter.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Proxy.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Proxy_num.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxytoexamineLog.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/PumpLog.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Recharge.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Robot.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Robotrecharge.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/SystemLog.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Task.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/TixianLog.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Users.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/UsersLineRelation.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Proxy_class.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxyNum.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Admin.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/web/error/500.jsp" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/web/pay_url_weixing.jsp" />
         <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/HibernateSessionFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminopLog.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/test/TestHibernateConnect.java" />
+        <option value="$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminRoleDAO.java" />
       </list>
     </option>
   </component>
@@ -236,10 +594,36 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="301" />
-    <option name="y" value="25" />
+    <option name="x" value="421" />
+    <option name="y" value="4" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>JPA</id>
+          </State>
+          <State>
+            <id>Java EE</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring MVCSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JpaQueryApiInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -247,8 +631,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,75 +642,20 @@
             <path>
               <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
               <item name="Yueba" type="462c0819:PsiDirectoryNode" />
+              <item name="UniqueIdentifierSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
+              <item name="UniqueIdentifierSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
               <item name="Yueba" type="462c0819:PsiDirectoryNode" />
+              <item name="UniqueIdentifierSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="guohaoshiye" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="guohaoshiye" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="guohaoshiye" type="462c0819:PsiDirectoryNode" />
-              <item name="yueba" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="guohaoshiye" type="462c0819:PsiDirectoryNode" />
-              <item name="yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="guohaoshiye" type="462c0819:PsiDirectoryNode" />
-              <item name="yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="guohaoshiye" type="462c0819:PsiDirectoryNode" />
-              <item name="yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="guohaoshiye" type="462c0819:PsiDirectoryNode" />
-              <item name="yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="guohaoshiye" type="462c0819:PsiDirectoryNode" />
-              <item name="yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="guohaoshiye" type="462c0819:PsiDirectoryNode" />
-              <item name="yueba" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="uniqueIdentifier" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
@@ -338,26 +666,60 @@
               <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
               <item name="Yueba" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Yueba" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="right" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Yueba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="b36e9b09-9c5b-4a9b-a6e9-53fa78bab886" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540829932025" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541213482970" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="C:/GuoHaoShiye/apache-tomcat/Yueba-olddemo/apache-tomcat-9.0.12/product/TTXChaguan_admin/WEB-INF/lib/ezmorph-1.0.6.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20609578" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Swagger-Ranger\git-workspace\Java-Framework\Yueba\web" />
+      <recent name="C:\Swagger-Ranger\git-workspace\Java-Framework\Yueba\web\WEB-INF" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.guohaoshiye.yueba.entity" />
+      <recent name="" />
+      <recent name="com.guohaoshiye.yueba.Entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Swagger-Ranger\git-workspace\Java-Framework\Yueba\web\WEB-INF" />
+      <recent name="C:\Swagger-Ranger\git-workspace\Java-Framework\Yueba\src\com\guohaoshiye\yueba\servlet" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -371,7 +733,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Yueba">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="Yueba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestHibernateConnect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TestHibernateConnect" />
+      <module name="Yueba" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Yueba" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12-Yueba" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -389,6 +777,7 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <output_file path="C:/GuoHaoShiye/apache-tomcat/Yueba/Yueba-TomcatLogs/log.txt" is_save="true" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="2426" />
       </RunnerSettings>
@@ -444,6 +833,20 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Yueba" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestHibernateConnect" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestHibernateConnect" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -456,7 +859,11 @@
       <option name="presentableId" value="Default" />
       <updated>1540784459627</updated>
       <workItem from="1540784465082" duration="5275000" />
-      <workItem from="1540797697073" duration="3864000" />
+      <workItem from="1540797697073" duration="13282000" />
+      <workItem from="1540874779056" duration="45617000" />
+      <workItem from="1540980174449" duration="31460000" />
+      <workItem from="1541086712186" duration="19413000" />
+      <workItem from="1541142373747" duration="16429000" />
     </task>
     <task id="LOCAL-00001" summary="save the decompile source files">
       <created>1540829390128</created>
@@ -465,47 +872,71 @@
       <option name="project" value="LOCAL" />
       <updated>1540829390128</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="save the decompile source files">
+      <created>1540830028423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540830028423</updated>
+    </task>
+    <task id="LOCAL-00003" summary="save the jsp code">
+      <created>1540973314017</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540973314017</updated>
+    </task>
+    <task id="LOCAL-00004" summary="save the jsp code">
+      <created>1541052123187</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541052123187</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9139000" />
+    <option name="totallyTimeSpent" value="131476000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7480916" visible="true" weight="0.22867803" />
+      <window_info id="Structure" order="1" sideWeight="0.24962853" side_tool="true" weight="0.22654584" />
+      <window_info id="Persistence" order="2" sideWeight="0.2519084" side_tool="true" weight="0.22867803" />
       <window_info id="Designer" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Learn" order="8" />
-      <window_info id="Web" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32899022" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info id="Web" order="9" sideWeight="0.24962853" side_tool="true" weight="0.22654584" />
+      <window_info anchor="bottom" id="Hibernate Console" order="0" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4989339" visible="true" weight="0.19543974" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Application Servers" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Spring" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.40282303" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32899022" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="17" visible="true" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.16897655" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -518,142 +949,314 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="save the decompile source files" />
-    <option name="LAST_COMMIT_MESSAGE" value="save the decompile source files" />
+    <MESSAGE value="save the jsp code" />
+    <option name="LAST_COMMIT_MESSAGE" value="save the jsp code" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../JavaSrc/src/com/company/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="64">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/GameAlllogDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="-736">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/RobotDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/Query.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b36e9b09-9c5b-4a9b-a6e9-53fa78bab886/schema/yueba/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/error/500.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Servletnn.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/UsersDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/hibernate-core-5.3.7.Final.jar!/org/hibernate/cfg/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-4831" />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-6581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_error.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_info.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log_info.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log_error.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/log_debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-2928" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pay_url_weixing.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="52" column="53" lean-forward="true" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/log/log_error.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/log/log_debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-6585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/log/log_info.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AuthImageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/servlet/AcceptServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="256">
+          <caret line="73" column="29" selection-start-line="73" selection-start-column="29" selection-end-line="73" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/../../../java/项目/java框架/SSM真实项目/ezuKe/WebContent/WEB-INF/classes/读者须知">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/UniqueIdentifierSystem/src/com/guohaoshiye/uniqueIdentifier/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        <state relative-caret-position="64">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/HelloYueba.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminRechargeLog.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/CommoditypurchaseLog.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="112">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/HelloYueba.java">
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxyClass.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ProxyNum.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="320">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/ZengsongLog.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/TestHibernateConnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminMenuDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/CommoditypurchaseLogDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-784">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/IBaseHibernateDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Accept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-995">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AcceptDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/CompleteDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/HibernateSessionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/PageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/BaseHibernateDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="192" column="4" selection-start-line="192" selection-start-column="4" selection-end-line="192" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/json/images.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/json/navs.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/json/newsList.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/json/userface.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/Accept.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/HallslidingdrawingDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminopLogDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/IBaseHibernateDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/PageModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/文本处理/yueba/dao/AdminopLogDAO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/AdminopLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/MailmanagementDAO$1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/MailmanagementDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/entity/hbm/Hallslidingdrawing.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/HibernateSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/hibernate/BaseHibernateDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AcceptDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/game/server/web/AddGold.java">
+    <entry file="file://$PROJECT_DIR$/src/com/guohaoshiye/yueba/dao/AdminRoleDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -676,11 +1279,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Hibernate</last-edited>
+          <last-edited>Web (Yueba)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20609578" />
               </list>
             </option>
           </splitter-proportions>
@@ -691,7 +1294,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20609578" />
               </list>
             </option>
           </splitter-proportions>
@@ -699,11 +1302,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20609578" />
               </list>
             </option>
           </splitter-proportions>
@@ -711,12 +1314,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Yueba</last-edited>
+          <last-edited>Spring|Yueba</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.20609578" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -736,11 +1338,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Hibernate 5.3.7-5.3.7</last-edited>
+          <last-edited>ezmorph-1.0.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20609578" />
               </list>
             </option>
           </splitter-proportions>

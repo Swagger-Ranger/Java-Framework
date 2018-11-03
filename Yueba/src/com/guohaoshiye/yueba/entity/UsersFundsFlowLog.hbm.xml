@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.guohaoshiye.yueba.entity.UsersFundsFlowLog" table="users_funds_flow_log" schema="yueba">
+        <id name="id" column="id"/>
+        <property name="userId" column="user_id"/>
+        <property name="flowType" column="flow_type"/>
+        <property name="valueType" column="value_type"/>
+        <property name="value" column="value"/>
+        <property name="info" column="info"/>
+        <property name="createTime" column="create_time"/>
+    </class>
+</hibernate-mapping>

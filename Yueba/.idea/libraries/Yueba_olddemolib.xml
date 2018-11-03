@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Yueba-olddemolib">
+    <CLASSES>
+      <root url="file://C:/GuoHaoShiye/apache-tomcat/Yueba-olddemo/apache-tomcat-9.0.12/product/TTXChaguan_admin/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://C:/GuoHaoShiye/apache-tomcat/Yueba-olddemo/apache-tomcat-9.0.12/product/TTXChaguan_admin/WEB-INF/lib" />
+    </SOURCES>
+    <jarDirectory url="file://C:/GuoHaoShiye/apache-tomcat/Yueba-olddemo/apache-tomcat-9.0.12/product/TTXChaguan_admin/WEB-INF/lib" recursive="false" />
+    <jarDirectory url="file://C:/GuoHaoShiye/apache-tomcat/Yueba-olddemo/apache-tomcat-9.0.12/product/TTXChaguan_admin/WEB-INF/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>

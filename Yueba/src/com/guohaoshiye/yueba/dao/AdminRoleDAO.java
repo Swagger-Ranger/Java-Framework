@@ -1,6 +1,6 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.AdminRole;
+import com.guohaoshiye.yueba.entity_olddemo.AdminRole;
 import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -16,7 +16,7 @@ public class AdminRoleDAO extends BaseHibernateDAO<AdminRole>
       session = getSession();
       tx = session.beginTransaction();
       Query query = session.createSQLQuery("delete from admin_role where aid=?");
-      query.setParameter(0, id);
+      query.setParameter(0, id);//这里的0参数为设置分页查询
       query.executeUpdate();
       tx.commit();
     } catch (Exception ex) {

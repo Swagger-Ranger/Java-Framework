@@ -1,11 +1,11 @@
  package com.guohaoshiye.yueba.dao;
 
- import com.guohaoshiye.yueba.entity.Proxy;
- import com.guohaoshiye.yueba.entity.Proxy_num;
- import com.guohaoshiye.yueba.entity.Users;
+ import com.guohaoshiye.yueba.entity_olddemo.Proxy;
+ import com.guohaoshiye.yueba.entity_olddemo.Proxy_num;
+ import com.guohaoshiye.yueba.entity_olddemo.Users;
  import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
  import com.guohaoshiye.yueba.hibernate.PageModel;
- import java.io.PrintStream;
+
  import java.math.BigInteger;
  import java.util.ArrayList;
  import java.util.List;

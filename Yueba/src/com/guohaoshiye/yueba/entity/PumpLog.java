@@ -1,219 +1,259 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: PumpLog
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.Objects;
 
-public class PumpLog
-  implements Serializable
-{
-  private Integer id;
-  private Integer uid;
-  private Integer tableid;
-  private Integer tabletype;
-  private Integer gamechang;
-  private Integer isbanker;
-  private String allpump;
-  private String pingtaipump;
-  private Integer oneproxyid;
-  private String oneproxypump;
-  private String pingtaione;
-  private Integer twoproxyid;
-  private String twoproxypump;
-  private String pingtaitwo;
-  private Integer threeproxyid;
-  private String threeproxypump;
-  private String pingtaithree;
-  private Timestamp createtime;
-  private String haomiao;
+@Entity
+@Table(name = "pump_log", schema = "yueba", catalog = "")
+public class PumpLog {
+    private int id;
+    private int uid;
+    private Integer tableid;
+    private Integer tabletype;
+    private Integer gamechang;
+    private Integer isbanker;
+    private String allpump;
+    private String pingtaipump;
+    private Integer oneproxyid;
+    private String oneproxypump;
+    private String pingtaione;
+    private Integer twoproxyid;
+    private String twoproxypump;
+    private String pingtaitwo;
+    private Integer threeproxyid;
+    private String threeproxypump;
+    private String pingtaithree;
+    private Timestamp createtime;
+    private String haomiao;
 
-  public PumpLog() {}
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
-  public PumpLog(Integer uid, String allpump, String pingtaipump)
-  {
-    this.uid = uid;
-    this.allpump = allpump;
-    this.pingtaipump = pingtaipump;
-  }
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    @Basic
+    @Column(name = "uid")
+    public int getUid() {
+        return uid;
+    }
 
+    public void setUid(int uid) {
+        this.uid = uid;
+    }
 
+    @Basic
+    @Column(name = "tableid")
+    public Integer getTableid() {
+        return tableid;
+    }
 
+    public void setTableid(Integer tableid) {
+        this.tableid = tableid;
+    }
 
+    @Basic
+    @Column(name = "tabletype")
+    public Integer getTabletype() {
+        return tabletype;
+    }
 
-  public PumpLog(Integer uid, Integer tableid, Integer tabletype, Integer gamechang, Integer isbanker, String allpump, String pingtaipump, Integer oneproxyid, String oneproxypump, String pingtaione, Integer twoproxyid, String twoproxypump, String pingtaitwo, Integer threeproxyid, String threeproxypump, String pingtaithree, Timestamp createtime, String haomiao)
-  {
-    this.uid = uid;
-    this.tableid = tableid;
-    this.tabletype = tabletype;
-    this.gamechang = gamechang;
-    this.isbanker = isbanker;
-    this.allpump = allpump;
-    this.pingtaipump = pingtaipump;
-    this.oneproxyid = oneproxyid;
-    this.oneproxypump = oneproxypump;
-    this.pingtaione = pingtaione;
-    this.twoproxyid = twoproxyid;
-    this.twoproxypump = twoproxypump;
-    this.pingtaitwo = pingtaitwo;
-    this.threeproxyid = threeproxyid;
-    this.threeproxypump = threeproxypump;
-    this.pingtaithree = pingtaithree;
-    this.createtime = createtime;
-    this.haomiao = haomiao;
-  }
+    public void setTabletype(Integer tabletype) {
+        this.tabletype = tabletype;
+    }
 
+    @Basic
+    @Column(name = "gamechang")
+    public Integer getGamechang() {
+        return gamechang;
+    }
 
-  public Integer getId()
-  {
-    return this.id;
-  }
+    public void setGamechang(Integer gamechang) {
+        this.gamechang = gamechang;
+    }
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
+    @Basic
+    @Column(name = "isbanker")
+    public Integer getIsbanker() {
+        return isbanker;
+    }
 
-  public Integer getUid() {
-    return this.uid;
-  }
+    public void setIsbanker(Integer isbanker) {
+        this.isbanker = isbanker;
+    }
 
-  public void setUid(Integer uid) {
-    this.uid = uid;
-  }
+    @Basic
+    @Column(name = "allpump")
+    public String getAllpump() {
+        return allpump;
+    }
 
-  public Integer getTableid() {
-    return this.tableid;
-  }
+    public void setAllpump(String allpump) {
+        this.allpump = allpump;
+    }
 
-  public void setTableid(Integer tableid) {
-    this.tableid = tableid;
-  }
+    @Basic
+    @Column(name = "pingtaipump")
+    public String getPingtaipump() {
+        return pingtaipump;
+    }
 
-  public Integer getTabletype() {
-    return this.tabletype;
-  }
+    public void setPingtaipump(String pingtaipump) {
+        this.pingtaipump = pingtaipump;
+    }
 
-  public void setTabletype(Integer tabletype) {
-    this.tabletype = tabletype;
-  }
+    @Basic
+    @Column(name = "oneproxyid")
+    public Integer getOneproxyid() {
+        return oneproxyid;
+    }
 
-  public Integer getGamechang() {
-    return this.gamechang;
-  }
+    public void setOneproxyid(Integer oneproxyid) {
+        this.oneproxyid = oneproxyid;
+    }
 
-  public void setGamechang(Integer gamechang) {
-    this.gamechang = gamechang;
-  }
+    @Basic
+    @Column(name = "oneproxypump")
+    public String getOneproxypump() {
+        return oneproxypump;
+    }
 
-  public Integer getIsbanker() {
-    return this.isbanker;
-  }
+    public void setOneproxypump(String oneproxypump) {
+        this.oneproxypump = oneproxypump;
+    }
 
-  public void setIsbanker(Integer isbanker) {
-    this.isbanker = isbanker;
-  }
+    @Basic
+    @Column(name = "pingtaione")
+    public String getPingtaione() {
+        return pingtaione;
+    }
 
-  public String getAllpump() {
-    return this.allpump;
-  }
+    public void setPingtaione(String pingtaione) {
+        this.pingtaione = pingtaione;
+    }
 
-  public void setAllpump(String allpump) {
-    this.allpump = allpump;
-  }
+    @Basic
+    @Column(name = "twoproxyid")
+    public Integer getTwoproxyid() {
+        return twoproxyid;
+    }
 
-  public String getPingtaipump() {
-    return this.pingtaipump;
-  }
+    public void setTwoproxyid(Integer twoproxyid) {
+        this.twoproxyid = twoproxyid;
+    }
 
-  public void setPingtaipump(String pingtaipump) {
-    this.pingtaipump = pingtaipump;
-  }
+    @Basic
+    @Column(name = "twoproxypump")
+    public String getTwoproxypump() {
+        return twoproxypump;
+    }
 
-  public Integer getOneproxyid() {
-    return this.oneproxyid;
-  }
+    public void setTwoproxypump(String twoproxypump) {
+        this.twoproxypump = twoproxypump;
+    }
 
-  public void setOneproxyid(Integer oneproxyid) {
-    this.oneproxyid = oneproxyid;
-  }
+    @Basic
+    @Column(name = "pingtaitwo")
+    public String getPingtaitwo() {
+        return pingtaitwo;
+    }
 
-  public String getOneproxypump() {
-    return this.oneproxypump;
-  }
+    public void setPingtaitwo(String pingtaitwo) {
+        this.pingtaitwo = pingtaitwo;
+    }
 
-  public void setOneproxypump(String oneproxypump) {
-    this.oneproxypump = oneproxypump;
-  }
+    @Basic
+    @Column(name = "threeproxyid")
+    public Integer getThreeproxyid() {
+        return threeproxyid;
+    }
 
-  public String getPingtaione() {
-    return this.pingtaione;
-  }
+    public void setThreeproxyid(Integer threeproxyid) {
+        this.threeproxyid = threeproxyid;
+    }
 
-  public void setPingtaione(String pingtaione) {
-    this.pingtaione = pingtaione;
-  }
+    @Basic
+    @Column(name = "threeproxypump")
+    public String getThreeproxypump() {
+        return threeproxypump;
+    }
 
-  public Integer getTwoproxyid() {
-    return this.twoproxyid;
-  }
+    public void setThreeproxypump(String threeproxypump) {
+        this.threeproxypump = threeproxypump;
+    }
 
-  public void setTwoproxyid(Integer twoproxyid) {
-    this.twoproxyid = twoproxyid;
-  }
+    @Basic
+    @Column(name = "pingtaithree")
+    public String getPingtaithree() {
+        return pingtaithree;
+    }
 
-  public String getTwoproxypump() {
-    return this.twoproxypump;
-  }
+    public void setPingtaithree(String pingtaithree) {
+        this.pingtaithree = pingtaithree;
+    }
 
-  public void setTwoproxypump(String twoproxypump) {
-    this.twoproxypump = twoproxypump;
-  }
+    @Basic
+    @Column(name = "createtime")
+    public Timestamp getCreatetime() {
+        return createtime;
+    }
 
-  public String getPingtaitwo() {
-    return this.pingtaitwo;
-  }
+    public void setCreatetime(Timestamp createtime) {
+        this.createtime = createtime;
+    }
 
-  public void setPingtaitwo(String pingtaitwo) {
-    this.pingtaitwo = pingtaitwo;
-  }
+    @Basic
+    @Column(name = "haomiao")
+    public String getHaomiao() {
+        return haomiao;
+    }
 
-  public Integer getThreeproxyid() {
-    return this.threeproxyid;
-  }
+    public void setHaomiao(String haomiao) {
+        this.haomiao = haomiao;
+    }
 
-  public void setThreeproxyid(Integer threeproxyid) {
-    this.threeproxyid = threeproxyid;
-  }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        PumpLog pumpLog = (PumpLog) o;
+        return id == pumpLog.id &&
+                uid == pumpLog.uid &&
+                Objects.equals(tableid, pumpLog.tableid) &&
+                Objects.equals(tabletype, pumpLog.tabletype) &&
+                Objects.equals(gamechang, pumpLog.gamechang) &&
+                Objects.equals(isbanker, pumpLog.isbanker) &&
+                Objects.equals(allpump, pumpLog.allpump) &&
+                Objects.equals(pingtaipump, pumpLog.pingtaipump) &&
+                Objects.equals(oneproxyid, pumpLog.oneproxyid) &&
+                Objects.equals(oneproxypump, pumpLog.oneproxypump) &&
+                Objects.equals(pingtaione, pumpLog.pingtaione) &&
+                Objects.equals(twoproxyid, pumpLog.twoproxyid) &&
+                Objects.equals(twoproxypump, pumpLog.twoproxypump) &&
+                Objects.equals(pingtaitwo, pumpLog.pingtaitwo) &&
+                Objects.equals(threeproxyid, pumpLog.threeproxyid) &&
+                Objects.equals(threeproxypump, pumpLog.threeproxypump) &&
+                Objects.equals(pingtaithree, pumpLog.pingtaithree) &&
+                Objects.equals(createtime, pumpLog.createtime) &&
+                Objects.equals(haomiao, pumpLog.haomiao);
+    }
 
-  public String getThreeproxypump() {
-    return this.threeproxypump;
-  }
-
-  public void setThreeproxypump(String threeproxypump) {
-    this.threeproxypump = threeproxypump;
-  }
-
-  public String getPingtaithree() {
-    return this.pingtaithree;
-  }
-
-  public void setPingtaithree(String pingtaithree) {
-    this.pingtaithree = pingtaithree;
-  }
-
-  public Timestamp getCreatetime() {
-    return this.createtime;
-  }
-
-  public void setCreatetime(Timestamp createtime) {
-    this.createtime = createtime;
-  }
-
-  public String getHaomiao() {
-    return this.haomiao;
-  }
-
-  public void setHaomiao(String haomiao) {
-    this.haomiao = haomiao;
-  }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, uid, tableid, tabletype, gamechang, isbanker, allpump, pingtaipump, oneproxyid, oneproxypump, pingtaione, twoproxyid, twoproxypump, pingtaitwo, threeproxyid, threeproxypump, pingtaithree, createtime, haomiao);
+    }
 }
-

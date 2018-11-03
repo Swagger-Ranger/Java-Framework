@@ -2,13 +2,11 @@ package com.guohaoshiye.yueba.servlet;
 
 import com.guohaoshiye.yueba.dao.RechargeDAO;
 import com.guohaoshiye.yueba.dao.UsersDAO;
-import com.guohaoshiye.yueba.entity.Recharge;
-import com.guohaoshiye.yueba.entity.Users;
+import com.guohaoshiye.yueba.entity_olddemo.Recharge;
+import com.guohaoshiye.yueba.entity_olddemo.Users;
 import com.guohaoshiye.yueba.hibernate.PageModel;
 import java.io.IOException;
-import java.io.PrintStream;
 import java.util.List;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

@@ -1,88 +1,103 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: CommoditypurchaseLog
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.Objects;
 
+@Entity
+@Table(name = "commoditypurchase_log", schema = "yueba", catalog = "")
+public class CommoditypurchaseLog {
+    private int id;
+    private String commodityName;
+    private int commodityNumber;
+    private int commodityTotalPrice;
+    private int purchaseUserid;
+    private Timestamp createTime;
 
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    @Basic
+    @Column(name = "CommodityName")
+    public String getCommodityName() {
+        return commodityName;
+    }
 
+    public void setCommodityName(String commodityName) {
+        this.commodityName = commodityName;
+    }
 
+    @Basic
+    @Column(name = "CommodityNumber")
+    public int getCommodityNumber() {
+        return commodityNumber;
+    }
 
+    public void setCommodityNumber(int commodityNumber) {
+        this.commodityNumber = commodityNumber;
+    }
 
+    @Basic
+    @Column(name = "CommodityTotalPrice")
+    public int getCommodityTotalPrice() {
+        return commodityTotalPrice;
+    }
 
+    public void setCommodityTotalPrice(int commodityTotalPrice) {
+        this.commodityTotalPrice = commodityTotalPrice;
+    }
 
+    @Basic
+    @Column(name = "PurchaseUserid")
+    public int getPurchaseUserid() {
+        return purchaseUserid;
+    }
 
+    public void setPurchaseUserid(int purchaseUserid) {
+        this.purchaseUserid = purchaseUserid;
+    }
 
-public class CommoditypurchaseLog
-  implements Serializable
-{
-  private Integer id;
-  private String commodityName;
-  private Integer commodityNumber;
-  private Integer commodityTotalPrice;
-  private Integer purchaseUserid;
-  private Timestamp createTime;
+    @Basic
+    @Column(name = "createTime")
+    public Timestamp getCreateTime() {
+        return createTime;
+    }
 
-  public CommoditypurchaseLog() {}
+    public void setCreateTime(Timestamp createTime) {
+        this.createTime = createTime;
+    }
 
-  public CommoditypurchaseLog(String commodityName, Integer commodityNumber, Integer commodityTotalPrice, Integer purchaseUserid, Timestamp createTime)
-  {
-    this.commodityName = commodityName;
-    this.commodityNumber = commodityNumber;
-    this.commodityTotalPrice = commodityTotalPrice;
-    this.purchaseUserid = purchaseUserid;
-    this.createTime = createTime;
-  }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        CommoditypurchaseLog that = (CommoditypurchaseLog) o;
+        return id == that.id &&
+                commodityNumber == that.commodityNumber &&
+                commodityTotalPrice == that.commodityTotalPrice &&
+                purchaseUserid == that.purchaseUserid &&
+                Objects.equals(commodityName, that.commodityName) &&
+                Objects.equals(createTime, that.createTime);
+    }
 
-
-  public Integer getId()
-  {
-    return this.id;
-  }
-
-  public void setId(Integer id) {
-    this.id = id;
-  }
-
-  public String getCommodityName() {
-    return this.commodityName;
-  }
-
-  public void setCommodityName(String commodityName) {
-    this.commodityName = commodityName;
-  }
-
-  public Integer getCommodityNumber() {
-    return this.commodityNumber;
-  }
-
-  public void setCommodityNumber(Integer commodityNumber) {
-    this.commodityNumber = commodityNumber;
-  }
-
-  public Integer getCommodityTotalPrice() {
-    return this.commodityTotalPrice;
-  }
-
-  public void setCommodityTotalPrice(Integer commodityTotalPrice) {
-    this.commodityTotalPrice = commodityTotalPrice;
-  }
-
-  public Integer getPurchaseUserid() {
-    return this.purchaseUserid;
-  }
-
-  public void setPurchaseUserid(Integer purchaseUserid) {
-    this.purchaseUserid = purchaseUserid;
-  }
-
-  public Timestamp getCreateTime() {
-    return this.createTime;
-  }
-
-  public void setCreateTime(Timestamp createTime) {
-    this.createTime = createTime;
-  }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, commodityName, commodityNumber, commodityTotalPrice, purchaseUserid, createTime);
+    }
 }
-

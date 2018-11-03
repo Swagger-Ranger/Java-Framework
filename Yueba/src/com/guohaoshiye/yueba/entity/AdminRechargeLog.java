@@ -1,87 +1,103 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: AdminRechargeLog
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.Objects;
 
+@Entity
+@Table(name = "admin_recharge_log", schema = "yueba", catalog = "")
+public class AdminRechargeLog {
+    private int id;
+    private String money;
+    private Integer uid;
+    private Integer rtype;
+    private Integer aid;
+    private Timestamp createTime;
 
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    @Basic
+    @Column(name = "money")
+    public String getMoney() {
+        return money;
+    }
 
+    public void setMoney(String money) {
+        this.money = money;
+    }
 
+    @Basic
+    @Column(name = "uid")
+    public Integer getUid() {
+        return uid;
+    }
 
+    public void setUid(Integer uid) {
+        this.uid = uid;
+    }
 
+    @Basic
+    @Column(name = "rtype")
+    public Integer getRtype() {
+        return rtype;
+    }
 
+    public void setRtype(Integer rtype) {
+        this.rtype = rtype;
+    }
 
+    @Basic
+    @Column(name = "aid")
+    public Integer getAid() {
+        return aid;
+    }
 
-public class AdminRechargeLog
-  implements Serializable
-{
-  private Integer id;
-  private String money;
-  private Integer uid;
-  private Integer rtype;
-  private Integer aid;
-  private Timestamp createTime;
+    public void setAid(Integer aid) {
+        this.aid = aid;
+    }
 
-  public AdminRechargeLog() {}
+    @Basic
+    @Column(name = "createTime")
+    public Timestamp getCreateTime() {
+        return createTime;
+    }
 
-  public AdminRechargeLog(String money, Integer uid, Integer rtype, Integer aid, Timestamp createTime)
-  {
-    this.money = money;
-    this.uid = uid;
-    this.rtype = rtype;
-    this.aid = aid;
-    this.createTime = createTime;
-  }
+    public void setCreateTime(Timestamp createTime) {
+        this.createTime = createTime;
+    }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        AdminRechargeLog that = (AdminRechargeLog) o;
+        return id == that.id &&
+                Objects.equals(money, that.money) &&
+                Objects.equals(uid, that.uid) &&
+                Objects.equals(rtype, that.rtype) &&
+                Objects.equals(aid, that.aid) &&
+                Objects.equals(createTime, that.createTime);
+    }
 
-  public Integer getId()
-  {
-    return this.id;
-  }
-
-  public void setId(Integer id) {
-    this.id = id;
-  }
-
-  public String getMoney() {
-    return this.money;
-  }
-
-  public void setMoney(String money) {
-    this.money = money;
-  }
-
-  public Integer getUid() {
-    return this.uid;
-  }
-
-  public void setUid(Integer uid) {
-    this.uid = uid;
-  }
-
-  public Integer getRtype() {
-    return this.rtype;
-  }
-
-  public void setRtype(Integer rtype) {
-    this.rtype = rtype;
-  }
-
-  public Integer getAid() {
-    return this.aid;
-  }
-
-  public void setAid(Integer aid) {
-    this.aid = aid;
-  }
-
-  public Timestamp getCreateTime() {
-    return this.createTime;
-  }
-
-  public void setCreateTime(Timestamp createTime) {
-    this.createTime = createTime;
-  }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, money, uid, rtype, aid, createTime);
+    }
 }
-

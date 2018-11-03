@@ -1,10 +1,9 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.Complete;
+import com.guohaoshiye.yueba.entity_olddemo.Complete;
 import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
 import com.guohaoshiye.yueba.hibernate.PageModel;
 import org.hibernate.Query;
-import org.hibernate.Session;
 
 public class CompleteDAO extends BaseHibernateDAO<Complete>
 {

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.guohaoshiye.yueba.entity.NiuniugameLog" table="niuniugame_log" schema="yueba">
+        <id name="id" column="id"/>
+        <property name="roomId" column="roomId"/>
+        <property name="tableId" column="tableId"/>
+        <property name="tableNo" column="tableNo"/>
+        <property name="cards" column="cards"/>
+        <property name="fangzhuId" column="fangzhuId"/>
+        <property name="bankerId" column="bankerId"/>
+        <property name="createTime" column="createTime"/>
+        <property name="difen" column="difen"/>
+        <property name="turn" column="turn"/>
+        <property name="zhuangbeishu" column="zhuangbeishu"/>
+        <property name="userid" column="userid"/>
+        <property name="win" column="win"/>
+        <property name="userpai" column="userpai"/>
+        <property name="useryabei" column="useryabei"/>
+        <property name="chanyu" column="chanyu"/>
+        <property name="kaifangshijian" column="kaifangshijian"/>
+    </class>
+</hibernate-mapping>

@@ -1,56 +1,78 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: AdminRole
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.*;
+import java.util.Objects;
 
-public class AdminRole
-  implements Serializable
-{
-  private Integer id;
-  private AdminMenu adminMenu;
-  private Admin admin;
-  private String op;
+@Entity
+@Table(name = "admin_role", schema = "yueba", catalog = "")
+public class AdminRole {
+    private int id;
+    private int aid;
+    private int caidanid;
+    private String op;
 
-  public AdminRole() {}
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
-  public AdminRole(AdminMenu adminMenu, Admin admin, String op)
-  {
-    this.adminMenu = adminMenu;
-    this.admin = admin;
-    this.op = op;
-  }
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    @Basic
+    @Column(name = "aid")
+    public int getAid() {
+        return aid;
+    }
 
-  public Integer getId()
-  {
-    return this.id;
-  }
+    public void setAid(int aid) {
+        this.aid = aid;
+    }
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
+    @Basic
+    @Column(name = "caidanid")
+    public int getCaidanid() {
+        return caidanid;
+    }
 
-  public AdminMenu getAdminMenu() {
-    return this.adminMenu;
-  }
+    public void setCaidanid(int caidanid) {
+        this.caidanid = caidanid;
+    }
 
-  public void setAdminMenu(AdminMenu adminMenu) {
-    this.adminMenu = adminMenu;
-  }
+    @Basic
+    @Column(name = "op")
+    public String getOp() {
+        return op;
+    }
 
-  public Admin getAdmin() {
-    return this.admin;
-  }
+    public void setOp(String op) {
+        this.op = op;
+    }
 
-  public void setAdmin(Admin admin) {
-    this.admin = admin;
-  }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        AdminRole adminRole = (AdminRole) o;
+        return id == adminRole.id &&
+                aid == adminRole.aid &&
+                caidanid == adminRole.caidanid &&
+                Objects.equals(op, adminRole.op);
+    }
 
-  public String getOp() {
-    return this.op;
-  }
-
-  public void setOp(String op) {
-    this.op = op;
-  }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, aid, caidanid, op);
+    }
 }
-

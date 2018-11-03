@@ -1,62 +1,79 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: AdminopLog
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.Objects;
 
-public class AdminopLog
-  implements Serializable
-{
-  private Integer id;
-  private Integer aid;
-  private String description;
-  private Timestamp createTime;
+@Entity
+@Table(name = "adminop_log", schema = "yueba", catalog = "")
+public class AdminopLog {
+    private int id;
+    private int aid;
+    private String description;
+    private Timestamp createTime;
 
-  public AdminopLog() {}
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
-  public AdminopLog(Integer aid)
-  {
-    this.aid = aid;
-  }
+    public void setId(int id) {
+        this.id = id;
+    }
 
-  public AdminopLog(Integer aid, String description, Timestamp createTime)
-  {
-    this.aid = aid;
-    this.description = description;
-    this.createTime = createTime;
-  }
+    @Basic
+    @Column(name = "aid")
+    public int getAid() {
+        return aid;
+    }
 
+    public void setAid(int aid) {
+        this.aid = aid;
+    }
 
-  public Integer getId()
-  {
-    return this.id;
-  }
+    @Basic
+    @Column(name = "description")
+    public String getDescription() {
+        return description;
+    }
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
-  public Integer getAid() {
-    return this.aid;
-  }
+    @Basic
+    @Column(name = "createTime")
+    public Timestamp getCreateTime() {
+        return createTime;
+    }
 
-  public void setAid(Integer aid) {
-    this.aid = aid;
-  }
+    public void setCreateTime(Timestamp createTime) {
+        this.createTime = createTime;
+    }
 
-  public String getDescription() {
-    return this.description;
-  }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        AdminopLog that = (AdminopLog) o;
+        return id == that.id &&
+                aid == that.aid &&
+                Objects.equals(description, that.description) &&
+                Objects.equals(createTime, that.createTime);
+    }
 
-  public void setDescription(String description) {
-    this.description = description;
-  }
-
-  public Timestamp getCreateTime() {
-    return this.createTime;
-  }
-
-  public void setCreateTime(Timestamp createTime) {
-    this.createTime = createTime;
-  }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, aid, description, createTime);
+    }
 }
-

@@ -1,12 +1,11 @@
 package com.guohaoshiye.yueba.servlet;
 
 import com.guohaoshiye.yueba.dao.AcceptDAO;
-import com.guohaoshiye.yueba.entity.Accept;
+import com.guohaoshiye.yueba.entity_olddemo.Accept;
 import com.guohaoshiye.yueba.hibernate.PageModel;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -113,8 +112,3 @@ public class AcceptServlet
   }
 }
 
-
-/* Location:              C:\Users\liufe\Desktop\yueba_admin\WEB-INF\classes\!\comold\aiwan\servlet\AcceptServlet.class
- * Java compiler version: 8 (52.0)
- * JD-Core Version:       0.7.1
- */

@@ -1,9 +1,9 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.CommoditypurchaseLog;
+import com.guohaoshiye.yueba.entity_olddemo.CommoditypurchaseLog;
 import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
 import com.guohaoshiye.yueba.hibernate.PageModel;
-import java.io.PrintStream;
+
 import java.math.BigInteger;
 import org.hibernate.Query;
 import org.hibernate.Session;

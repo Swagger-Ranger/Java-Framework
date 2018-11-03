@@ -1,9 +1,8 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.Admin;
+import com.guohaoshiye.yueba.entity_olddemo.Admin;
 import com.guohaoshiye.yueba.hibernate.PageModel;
 import org.hibernate.Query;
-import org.hibernate.Session;
 
 public class AdminDAO extends com.guohaoshiye.yueba.hibernate.BaseHibernateDAO<Admin>
 {

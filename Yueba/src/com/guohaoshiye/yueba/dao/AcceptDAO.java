@@ -1,9 +1,8 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.Accept;
+import com.guohaoshiye.yueba.entity_olddemo.Accept;
 import com.guohaoshiye.yueba.hibernate.PageModel;
 import org.hibernate.Query;
-import org.hibernate.Session;
 
 public class AcceptDAO extends com.guohaoshiye.yueba.hibernate.BaseHibernateDAO<Accept>
 {

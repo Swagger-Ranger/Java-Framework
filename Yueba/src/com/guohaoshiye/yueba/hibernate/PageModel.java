@@ -1,5 +1,7 @@
 package com.guohaoshiye.yueba.hibernate;
-
+/*
+* 设置分页查询
+* */
 import java.util.List;
 
 public class PageModel<T>

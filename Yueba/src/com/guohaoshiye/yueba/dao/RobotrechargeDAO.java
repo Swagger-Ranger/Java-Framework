@@ -1,11 +1,10 @@
 package com.guohaoshiye.yueba.dao;
 
-import com.guohaoshiye.yueba.entity.Robotrecharge;
+import com.guohaoshiye.yueba.entity_olddemo.Robotrecharge;
 import com.guohaoshiye.yueba.hibernate.BaseHibernateDAO;
 import com.guohaoshiye.yueba.hibernate.PageModel;
 import java.math.BigInteger;
 import org.hibernate.Query;
-import org.hibernate.Session;
 
 
 public class RobotrechargeDAO

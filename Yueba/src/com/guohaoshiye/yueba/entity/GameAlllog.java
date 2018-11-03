@@ -1,153 +1,163 @@
- package com.guohaoshiye.yueba.entity;
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: GameAlllog
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
 
- import java.io.Serializable;
- import java.sql.Timestamp;
+package com.guohaoshiye.yueba.entity;
 
+import javax.persistence.*;
+import java.sql.Timestamp;
+import java.util.Objects;
 
+@Entity
+@Table(name = "game_alllog", schema = "yueba", catalog = "")
+public class GameAlllog {
+    private int id;
+    private int roomNumber;
+    private int playtype;
+    private int gamechang;
+    private int bankerid;
+    private String alluserid;
+    private String player;
+    private String playback;
+    private String cards;
+    private Timestamp creattime;
+    private String haomiao;
 
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
 
+    @Basic
+    @Column(name = "roomNumber")
+    public int getRoomNumber() {
+        return roomNumber;
+    }
 
+    public void setRoomNumber(int roomNumber) {
+        this.roomNumber = roomNumber;
+    }
 
+    @Basic
+    @Column(name = "playtype")
+    public int getPlaytype() {
+        return playtype;
+    }
 
+    public void setPlaytype(int playtype) {
+        this.playtype = playtype;
+    }
 
+    @Basic
+    @Column(name = "gamechang")
+    public int getGamechang() {
+        return gamechang;
+    }
 
+    public void setGamechang(int gamechang) {
+        this.gamechang = gamechang;
+    }
 
- public class GameAlllog
-   implements Serializable
- {
-   private Integer id;
-   private Integer roomNumber;
-   private Integer playtype;
-   private Integer gamechang;
-   private Integer bankerid;
-   private String alluserid;
-   private String player;
-   private String playback;
-   private String cards;
-   private Timestamp creattime;
-   private String haomiao;
+    @Basic
+    @Column(name = "bankerid")
+    public int getBankerid() {
+        return bankerid;
+    }
 
-   public GameAlllog() {}
+    public void setBankerid(int bankerid) {
+        this.bankerid = bankerid;
+    }
 
-   public GameAlllog(Integer roomNumber, Integer playtype, Integer gamechang, Integer bankerid, String alluserid)
-   {
-     this.roomNumber = roomNumber;
-     this.playtype = playtype;
-     this.gamechang = gamechang;
-     this.bankerid = bankerid;
-     this.alluserid = alluserid;
-   }
+    @Basic
+    @Column(name = "alluserid")
+    public String getAlluserid() {
+        return alluserid;
+    }
 
+    public void setAlluserid(String alluserid) {
+        this.alluserid = alluserid;
+    }
 
+    @Basic
+    @Column(name = "player")
+    public String getPlayer() {
+        return player;
+    }
 
-   public GameAlllog(Integer roomNumber, Integer playtype, Integer gamechang, Integer bankerid, String alluserid, String player, String playback, String cards, Timestamp creattime, String haomiao)
-   {
-     this.roomNumber = roomNumber;
-     this.playtype = playtype;
-     this.gamechang = gamechang;
-     this.bankerid = bankerid;
-     this.alluserid = alluserid;
-     this.player = player;
-     this.playback = playback;
-     this.cards = cards;
-     this.creattime = creattime;
-     this.haomiao = haomiao;
-   }
+    public void setPlayer(String player) {
+        this.player = player;
+    }
 
+    @Basic
+    @Column(name = "playback")
+    public String getPlayback() {
+        return playback;
+    }
 
-   public Integer getId()
-   {
-     return this.id;
-   }
+    public void setPlayback(String playback) {
+        this.playback = playback;
+    }
 
-   public void setId(Integer id) {
-     this.id = id;
-   }
+    @Basic
+    @Column(name = "cards")
+    public String getCards() {
+        return cards;
+    }
 
-   public Integer getRoomNumber() {
-     return this.roomNumber;
-   }
+    public void setCards(String cards) {
+        this.cards = cards;
+    }
 
-   public void setRoomNumber(Integer roomNumber) {
-     this.roomNumber = roomNumber;
-   }
+    @Basic
+    @Column(name = "creattime")
+    public Timestamp getCreattime() {
+        return creattime;
+    }
 
-   public Integer getPlaytype() {
-     return this.playtype;
-   }
+    public void setCreattime(Timestamp creattime) {
+        this.creattime = creattime;
+    }
 
-   public void setPlaytype(Integer playtype) {
-     this.playtype = playtype;
-   }
+    @Basic
+    @Column(name = "haomiao")
+    public String getHaomiao() {
+        return haomiao;
+    }
 
-   public Integer getGamechang() {
-     return this.gamechang;
-   }
+    public void setHaomiao(String haomiao) {
+        this.haomiao = haomiao;
+    }
 
-   public void setGamechang(Integer gamechang) {
-     this.gamechang = gamechang;
-   }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        GameAlllog that = (GameAlllog) o;
+        return id == that.id &&
+                roomNumber == that.roomNumber &&
+                playtype == that.playtype &&
+                gamechang == that.gamechang &&
+                bankerid == that.bankerid &&
+                Objects.equals(alluserid, that.alluserid) &&
+                Objects.equals(player, that.player) &&
+                Objects.equals(playback, that.playback) &&
+                Objects.equals(cards, that.cards) &&
+                Objects.equals(creattime, that.creattime) &&
+                Objects.equals(haomiao, that.haomiao);
+    }
 
-   public Integer getBankerid() {
-     return this.bankerid;
-   }
-
-   public void setBankerid(Integer bankerid) {
-     this.bankerid = bankerid;
-   }
-
-   public String getAlluserid() {
-     return this.alluserid;
-   }
-
-   public void setAlluserid(String alluserid) {
-     this.alluserid = alluserid;
-   }
-
-   public String getPlayer() {
-     return this.player;
-   }
-
-   public void setPlayer(String player) {
-     this.player = player;
-   }
-
-   public String getPlayback() {
-     return this.playback;
-   }
-
-   public void setPlayback(String playback) {
-     this.playback = playback;
-   }
-
-   public String getCards() {
-     return this.cards;
-   }
-
-   public void setCards(String cards) {
-     this.cards = cards;
-   }
-
-   public Timestamp getCreattime() {
-     return this.creattime;
-   }
-
-   public void setCreattime(Timestamp creattime) {
-     this.creattime = creattime;
-   }
-
-   public String getHaomiao() {
-     return this.haomiao;
-   }
-
-   public void setHaomiao(String haomiao) {
-     this.haomiao = haomiao;
-   }
-
-   public String toString()
-   {
-     return "GameAlllog{id=" + this.id + ", roomNumber=" + this.roomNumber + ", playtype=" + this.playtype + ", gamechang=" + this.gamechang + ", bankerid=" + this.bankerid + ", alluserid='" + this.alluserid + '\'' + ", player='" + this.player + '\'' + ", playback='" + this.playback + '\'' + ", cards='" + this.cards + '\'' + ", creattime=" + this.creattime + ", haomiao='" + this.haomiao + '\'' + '}';
-   }
- }
-
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, roomNumber, playtype, gamechang, bankerid, alluserid, player, playback, cards, creattime, haomiao);
+    }
+}

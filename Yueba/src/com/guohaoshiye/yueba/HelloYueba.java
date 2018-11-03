@@ -20,6 +20,6 @@ public class HelloYueba {
     public String greet(Model model) {
         model.addAttribute("name", "Swagger-Ranger");
         model.addAttribute("url", "http://127.0.0.1:8080");
-        return "HelloYueba";
+        return "HelloYueba.jsp";
     }
 }

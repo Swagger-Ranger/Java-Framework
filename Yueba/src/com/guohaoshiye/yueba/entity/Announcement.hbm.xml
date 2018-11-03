@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.guohaoshiye.yueba.entity.Announcement" table="announcement" schema="yueba">
+        <id name="id" column="id"/>
+        <property name="title" column="title"/>
+        <property name="noticestate" column="noticestate"/>
+        <property name="begintime" column="begintime"/>
+        <property name="endtime" column="endtime"/>
+    </class>
+</hibernate-mapping>

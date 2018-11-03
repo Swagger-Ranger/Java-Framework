@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.guohaoshiye.yueba.entity.GiveIntegralSettings" table="give_integral_settings" schema="yueba">
+        <id name="id" column="id"/>
+        <property name="number" column="number"/>
+        <property name="amount" column="amount"/>
+        <property name="haveNumber" column="have_number"/>
+        <property name="serial" column="serial"/>
+        <property name="start" column="start"/>
+        <property name="end" column="end"/>
+        <property name="isOn" column="is_on"/>
+    </class>
+</hibernate-mapping>

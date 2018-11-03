@@ -1,11 +1,12 @@
 package com.guohaoshiye.yueba.session;
-
-import com.guohaoshiye.yueba.entity.Admin;
+/*
+* 会话过滤器
+* */
+import com.guohaoshiye.yueba.entity_olddemo.Admin;
 import com.guohaoshiye.yueba.util.Util;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Map.Entry;
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;

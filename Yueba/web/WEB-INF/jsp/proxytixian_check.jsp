@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page import="com.guohaoshiye.yueba.util.Util"%>
-<%@ page import="com.guohaoshiye.yueba.entity.Admin"%>
+<%@ page import="com.guohaoshiye.yueba.entity_olddemo.Admin"%>
 <%@ page import="java.util.Map.Entry"%>
 <%
 String path = request.getContextPath();

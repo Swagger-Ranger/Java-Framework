@@ -4,26 +4,29 @@ import com.guohaoshiye.yueba.dao.AdminDAO;
 import com.guohaoshiye.yueba.dao.AdminMenuDAO;
 import com.guohaoshiye.yueba.dao.AdminRoleDAO;
 import com.guohaoshiye.yueba.dao.AdminopLogDAO;
-import com.guohaoshiye.yueba.entity.Admin;
-import com.guohaoshiye.yueba.entity.AdminMenu;
-import com.guohaoshiye.yueba.entity.AdminRole;
-import com.guohaoshiye.yueba.entity.AdminopLog;
+import com.guohaoshiye.yueba.entity_olddemo.Admin;
+import com.guohaoshiye.yueba.entity_olddemo.AdminMenu;
+import com.guohaoshiye.yueba.entity_olddemo.AdminRole;
+import com.guohaoshiye.yueba.entity_olddemo.AdminopLog;
 import com.guohaoshiye.yueba.util.Util;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 import java.io.IOException;
 import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.Set;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+//@Controller
+//@RequestMapping("login")
 public class LoginServlet extends HttpServlet
 {
   private static final long serialVersionUID = 1L;
@@ -88,7 +91,7 @@ public class LoginServlet extends HttpServlet
       }
       List<Admin> findByHQL = this.dao.findByHQL(hql, new Object[] { username, Util.Md5(password) });
       if (findByHQL.size() > 0) {
-        Admin admin = (Admin)findByHQL.get(0);
+        Admin admin = findByHQL.get(0);
 
         Set<AdminRole> adminRoles = admin.getAdminRoles();
         adminRoles = Util.sortByValue(adminRoles);
@@ -190,7 +193,7 @@ public class LoginServlet extends HttpServlet
             }
           }
           try {
-            request.getRequestDispatcher("web/index.jsp").forward(request, response);
+            request.getRequestDispatcher("web/index-proto.jsp").forward(request, response);
           }
           catch (ServletException e) {
             e.printStackTrace();

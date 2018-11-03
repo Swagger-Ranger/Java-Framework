@@ -1,11 +1,10 @@
 package com.guohaoshiye.yueba.servlet;
 
 import com.guohaoshiye.yueba.dao.SystemLogDAO;
-import com.guohaoshiye.yueba.entity.SystemLog;
+import com.guohaoshiye.yueba.entity_olddemo.SystemLog;
 import com.guohaoshiye.yueba.hibernate.PageModel;
 import java.io.IOException;
 import java.util.List;
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

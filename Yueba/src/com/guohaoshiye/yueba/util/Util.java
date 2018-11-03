@@ -1,7 +1,7 @@
 package com.guohaoshiye.yueba.util;
 
-import com.guohaoshiye.yueba.entity.AdminRole;
-import com.guohaoshiye.yueba.entity.TreeNodes;
+import com.guohaoshiye.yueba.entity_olddemo.AdminRole;
+import com.guohaoshiye.yueba.entity_olddemo.TreeNodes;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,7 +10,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
-import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

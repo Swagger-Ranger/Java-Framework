@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/yueba?characterEncoding=utf-8</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+      <property name="connection.username">root</property>
+      <property name="connection.password"></property>
+
+    <!--指定数据库方言-->
+    <property name="dialect">
+      org.hibernate.dialect.MySQL5Dialect
+    </property>
+
+    <!--Yueba原有配置-->
+    <property name="connection.autoCommit">true</property>
+    <property name="hibernate.cache.use_query_cach-true">
+      false
+    </property>
+    <property name="hibernate.cache.use_second_level_cache">
+      false
+    </property>
+    <!--<property name="cache.query_cache_factory">false</property>-->
+    <property name="cache.use_second_level_cache">false</property>
+    <property name="show_sql">true</property>
+    <!-- 连接池配置 -->
+    <!--<property name="connection.provider_class">-->
+      <!--org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider-->
+    <!--</property>-->
+    <!--<property name="cache.query_cache_factory">false</property>-->
+    <!--<property name="hibernate.c3p0.acquire_increment">1</property>-->
+    <!--<property name="hibernate.c3p0.idle_test_period">121</property>-->
+    <!--<property name="hibernate.c3p0.max_size">30</property>-->
+    <!--<property name="hibernate.c3p0.max_statements">100</property>-->
+    <!--<property name="hibernate.c3p0.min_size">5</property>-->
+    <!--<property name="hibernate.c3p0.timeout">1800</property>-->
+    <!--<property name="hibernate.c3p0.validate">true</property>-->
+    <!--<property name="c3p0.idleConnectionTestPeriod">18000</property>-->
+    <!--<property name="c3p0.maxIdleTime">25000</property>-->
+    <!--<property name="c3p0.maxIdleTimeautomaticTestTable">test</property>-->
+    <!--<property name="c3p0.preferredTestQuery">SELECT 1</property>-->
+    <!--<property name="c3p0.testConnectionOnCheckin">true</property>-->
+    <!--<property name="c3p0.testConnectionOnCheckout">true</property>-->
+
+
+
+    <mapping resource="com/guohaoshiye/yueba/entity/Accept.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Admin.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/AdminMenu.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/ArewardLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/AdminRechargeLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/AdminRole.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Announcement.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/AdminopLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/ChangciConfig.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Checkcode.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/CommoditypurchaseLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Complete.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/DailylandingGift.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Exchange.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/EmailType.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/GameAlllog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Gamelog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/GiveIntegralLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/GiveIntegralSettings.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/GuizeConfig.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Guizezhu.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Hallslidingdrawing.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/LoginLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Mailmanagement.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Matching.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/MatchingConfig.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/NiuniugameLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Parameter.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Practice.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Proxy.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/ProxyClass.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/ProxyNum.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/ProxytoexamineLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/PumpLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Recharge.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/RewardLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Robot.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/RobotIntegralChangeLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Robotrecharge.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Roomconfig.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/ShareLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/SystemLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Task.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/TixianLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/UsersLineRelation.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/UsersLineSumLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/Users.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/UsersFundsFlowLog.hbm.xml"/>
+    <mapping resource="com/guohaoshiye/yueba/entity/ZengsongLog.hbm.xml"/>
+
+
+
+    <mapping class="com.guohaoshiye.yueba.entity.Accept"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Admin"/>
+    <mapping class="com.guohaoshiye.yueba.entity.AdminMenu"/>
+    <mapping class="com.guohaoshiye.yueba.entity.AdminRechargeLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.AdminRole"/>
+    <mapping class="com.guohaoshiye.yueba.entity.AdminopLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Announcement"/>
+    <mapping class="com.guohaoshiye.yueba.entity.ArewardLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.ChangciConfig"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Checkcode"/>
+    <mapping class="com.guohaoshiye.yueba.entity.CommoditypurchaseLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Complete"/>
+    <mapping class="com.guohaoshiye.yueba.entity.DailylandingGift"/>
+    <mapping class="com.guohaoshiye.yueba.entity.EmailType"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Exchange"/>
+    <mapping class="com.guohaoshiye.yueba.entity.GameAlllog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Gamelog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.GiveIntegralLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.GiveIntegralSettings"/>
+    <mapping class="com.guohaoshiye.yueba.entity.GuizeConfig"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Guizezhu"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Hallslidingdrawing"/>
+    <mapping class="com.guohaoshiye.yueba.entity.LoginLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Mailmanagement"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Matching"/>
+    <mapping class="com.guohaoshiye.yueba.entity.MatchingConfig"/>
+    <mapping class="com.guohaoshiye.yueba.entity.NiuniugameLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Parameter"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Practice"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Proxy"/>
+    <mapping class="com.guohaoshiye.yueba.entity.ProxyClass"/>
+    <mapping class="com.guohaoshiye.yueba.entity.ProxyNum"/>
+    <mapping class="com.guohaoshiye.yueba.entity.ProxytoexamineLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.PumpLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Recharge"/>
+    <mapping class="com.guohaoshiye.yueba.entity.RewardLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Robot"/>
+    <mapping class="com.guohaoshiye.yueba.entity.RobotIntegralChangeLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Robotrecharge"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Roomconfig"/>
+    <mapping class="com.guohaoshiye.yueba.entity.ShareLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.SystemLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Task"/>
+    <mapping class="com.guohaoshiye.yueba.entity.TixianLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.Users"/>
+    <mapping class="com.guohaoshiye.yueba.entity.UsersFundsFlowLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.UsersLineRelation"/>
+    <mapping class="com.guohaoshiye.yueba.entity.UsersLineSumLog"/>
+    <mapping class="com.guohaoshiye.yueba.entity.ZengsongLog"/>
+
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
+
+  </session-factory>
+</hibernate-configuration>

@@ -1,192 +1,223 @@
+/*******************************************************************************
+ * Copyright (C), 2018-2018,github:Swagger-Ranger 
+ * FileName: ProxytoexamineLog
+ * Author:   liufei32@outlook.com
+ * Date:     2018/11/1 16:06
+ * Description: 
+ * Aha-eureka:
+ *******************************************************************************/
+
 package com.guohaoshiye.yueba.entity;
 
-import java.io.Serializable;
+import javax.persistence.*;
 import java.sql.Timestamp;
+import java.util.Objects;
 
+@Entity
+@Table(name = "proxytoexamine_log", schema = "yueba", catalog = "")
+public class ProxytoexamineLog {
+    private int id;
+    private int uid;
+    private String clientname;
+    private String weixinhao;
+    private String chalouname;
+    private String applydescription;
+    private String phone;
+    private Integer servicecharge;
+    private int state;
+    private Timestamp creatrtime;
+    private Integer auditid;
+    private Timestamp auditTime;
+    private String denyReason;
+    private Integer pid;
+    private Integer currentDiamonds;
+    private Integer currentIntegral;
 
-public class ProxytoexamineLog
-  implements Serializable
-{
-  private Integer id;
-  private Integer uid;
-  private String clientname;
-  private String weixinhao;
-  private String chalouname;
-  private String applydescription;
-  private String phone;
-  private Integer servicecharge;
-  private Integer state;
-  private Timestamp creatrtime;
-  private Integer auditid;
-  private Timestamp auditTime;
-  private String denyReason;
-  private Integer pid;
-  private Integer currentDiamonds;
-  private Integer currentIntegral;
+    @Id
+    @Column(name = "id")
+    public int getId() {
+        return id;
+    }
 
-  public ProxytoexamineLog() {}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-  public ProxytoexamineLog(Integer uid, String clientname, String weixinhao, String chalouname, String phone, Integer state)
-  {
-    this.uid = uid;
-    this.clientname = clientname;
-    this.weixinhao = weixinhao;
-    this.chalouname = chalouname;
-    this.phone = phone;
-    this.state = state;
-  }
+    @Basic
+    @Column(name = "uid")
+    public int getUid() {
+        return uid;
+    }
 
+    public void setUid(int uid) {
+        this.uid = uid;
+    }
 
+    @Basic
+    @Column(name = "clientname")
+    public String getClientname() {
+        return clientname;
+    }
 
+    public void setClientname(String clientname) {
+        this.clientname = clientname;
+    }
 
+    @Basic
+    @Column(name = "weixinhao")
+    public String getWeixinhao() {
+        return weixinhao;
+    }
 
-  public ProxytoexamineLog(Integer uid, String clientname, String weixinhao, String chalouname, String applydescription, String phone, Integer servicecharge, Integer state, Timestamp creatrtime, Integer auditid, Timestamp auditTime, String denyReason, Integer pid, Integer currentDiamonds, Integer currentIntegral)
-  {
-    this.uid = uid;
-    this.clientname = clientname;
-    this.weixinhao = weixinhao;
-    this.chalouname = chalouname;
-    this.applydescription = applydescription;
-    this.phone = phone;
-    this.servicecharge = servicecharge;
-    this.state = state;
-    this.creatrtime = creatrtime;
-    this.auditid = auditid;
-    this.auditTime = auditTime;
-    this.denyReason = denyReason;
-    this.pid = pid;
-    this.currentDiamonds = currentDiamonds;
-    this.currentIntegral = currentIntegral;
-  }
+    public void setWeixinhao(String weixinhao) {
+        this.weixinhao = weixinhao;
+    }
 
+    @Basic
+    @Column(name = "chalouname")
+    public String getChalouname() {
+        return chalouname;
+    }
 
-  public Integer getId()
-  {
-    return this.id;
-  }
+    public void setChalouname(String chalouname) {
+        this.chalouname = chalouname;
+    }
 
-  public void setId(Integer id) {
-    this.id = id;
-  }
+    @Basic
+    @Column(name = "applydescription")
+    public String getApplydescription() {
+        return applydescription;
+    }
 
-  public Integer getUid() {
-    return this.uid;
-  }
+    public void setApplydescription(String applydescription) {
+        this.applydescription = applydescription;
+    }
 
-  public void setUid(Integer uid) {
-    this.uid = uid;
-  }
+    @Basic
+    @Column(name = "phone")
+    public String getPhone() {
+        return phone;
+    }
 
-  public String getClientname() {
-    return this.clientname;
-  }
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
 
-  public void setClientname(String clientname) {
-    this.clientname = clientname;
-  }
+    @Basic
+    @Column(name = "servicecharge")
+    public Integer getServicecharge() {
+        return servicecharge;
+    }
 
-  public String getWeixinhao() {
-    return this.weixinhao;
-  }
+    public void setServicecharge(Integer servicecharge) {
+        this.servicecharge = servicecharge;
+    }
 
-  public void setWeixinhao(String weixinhao) {
-    this.weixinhao = weixinhao;
-  }
+    @Basic
+    @Column(name = "state")
+    public int getState() {
+        return state;
+    }
 
-  public String getChalouname() {
-    return this.chalouname;
-  }
+    public void setState(int state) {
+        this.state = state;
+    }
 
-  public void setChalouname(String chalouname) {
-    this.chalouname = chalouname;
-  }
+    @Basic
+    @Column(name = "creatrtime")
+    public Timestamp getCreatrtime() {
+        return creatrtime;
+    }
 
-  public String getApplydescription() {
-    return this.applydescription;
-  }
+    public void setCreatrtime(Timestamp creatrtime) {
+        this.creatrtime = creatrtime;
+    }
 
-  public void setApplydescription(String applydescription) {
-    this.applydescription = applydescription;
-  }
+    @Basic
+    @Column(name = "auditid")
+    public Integer getAuditid() {
+        return auditid;
+    }
 
-  public String getPhone() {
-    return this.phone;
-  }
+    public void setAuditid(Integer auditid) {
+        this.auditid = auditid;
+    }
 
-  public void setPhone(String phone) {
-    this.phone = phone;
-  }
+    @Basic
+    @Column(name = "auditTime")
+    public Timestamp getAuditTime() {
+        return auditTime;
+    }
 
-  public Integer getServicecharge() {
-    return this.servicecharge;
-  }
+    public void setAuditTime(Timestamp auditTime) {
+        this.auditTime = auditTime;
+    }
 
-  public void setServicecharge(Integer servicecharge) {
-    this.servicecharge = servicecharge;
-  }
+    @Basic
+    @Column(name = "denyReason")
+    public String getDenyReason() {
+        return denyReason;
+    }
 
-  public Integer getState() {
-    return this.state;
-  }
+    public void setDenyReason(String denyReason) {
+        this.denyReason = denyReason;
+    }
 
-  public void setState(Integer state) {
-    this.state = state;
-  }
+    @Basic
+    @Column(name = "pid")
+    public Integer getPid() {
+        return pid;
+    }
 
-  public Timestamp getCreatrtime() {
-    return this.creatrtime;
-  }
+    public void setPid(Integer pid) {
+        this.pid = pid;
+    }
 
-  public void setCreatrtime(Timestamp creatrtime) {
-    this.creatrtime = creatrtime;
-  }
+    @Basic
+    @Column(name = "currentDiamonds")
+    public Integer getCurrentDiamonds() {
+        return currentDiamonds;
+    }
 
-  public Integer getAuditid() {
-    return this.auditid;
-  }
+    public void setCurrentDiamonds(Integer currentDiamonds) {
+        this.currentDiamonds = currentDiamonds;
+    }
 
-  public void setAuditid(Integer auditid) {
-    this.auditid = auditid;
-  }
+    @Basic
+    @Column(name = "currentIntegral")
+    public Integer getCurrentIntegral() {
+        return currentIntegral;
+    }
 
-  public Timestamp getAuditTime() {
-    return this.auditTime;
-  }
+    public void setCurrentIntegral(Integer currentIntegral) {
+        this.currentIntegral = currentIntegral;
+    }
 
-  public void setAuditTime(Timestamp auditTime) {
-    this.auditTime = auditTime;
-  }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ProxytoexamineLog that = (ProxytoexamineLog) o;
+        return id == that.id &&
+                uid == that.uid &&
+                state == that.state &&
+                Objects.equals(clientname, that.clientname) &&
+                Objects.equals(weixinhao, that.weixinhao) &&
+                Objects.equals(chalouname, that.chalouname) &&
+                Objects.equals(applydescription, that.applydescription) &&
+                Objects.equals(phone, that.phone) &&
+                Objects.equals(servicecharge, that.servicecharge) &&
+                Objects.equals(creatrtime, that.creatrtime) &&
+                Objects.equals(auditid, that.auditid) &&
+                Objects.equals(auditTime, that.auditTime) &&
+                Objects.equals(denyReason, that.denyReason) &&
+                Objects.equals(pid, that.pid) &&
+                Objects.equals(currentDiamonds, that.currentDiamonds) &&
+                Objects.equals(currentIntegral, that.currentIntegral);
+    }
 
-  public String getDenyReason() {
-    return this.denyReason;
-  }
-
-  public void setDenyReason(String denyReason) {
-    this.denyReason = denyReason;
-  }
-
-  public Integer getPid() {
-    return this.pid;
-  }
-
-  public void setPid(Integer pid) {
-    this.pid = pid;
-  }
-
-  public Integer getCurrentDiamonds() {
-    return this.currentDiamonds;
-  }
-
-  public void setCurrentDiamonds(Integer currentDiamonds) {
-    this.currentDiamonds = currentDiamonds;
-  }
-
-  public Integer getCurrentIntegral() {
-    return this.currentIntegral;
-  }
-
-  public void setCurrentIntegral(Integer currentIntegral) {
-    this.currentIntegral = currentIntegral;
-  }
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, uid, clientname, weixinhao, chalouname, applydescription, phone, servicecharge, state, creatrtime, auditid, auditTime, denyReason, pid, currentDiamonds, currentIntegral);
+    }
 }
-
